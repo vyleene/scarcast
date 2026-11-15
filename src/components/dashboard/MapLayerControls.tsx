@@ -6,7 +6,8 @@ import { opticalTimeline } from '../../services/corroborationData'
 import type { EvidenceSelection } from '../../services/corroborationData'
 import OpticalAcquisitionNote from './OpticalAcquisitionNote'
 
-export default function MapLayerControls({ visible, mode, modes, onModeChange, onToggle, evidence, onEvidenceChange }: {
+export default function MapLayerControls({ visible, mode, modes, onModeChange, onToggle, evidence, onEvidenceChange, onOpenTerrain }: {
+  onOpenTerrain?: () => void
   evidence?: EvidenceSelection
   onEvidenceChange?: (selection: EvidenceSelection) => void
   visible: boolean
@@ -32,6 +33,7 @@ export default function MapLayerControls({ visible, mode, modes, onModeChange, o
           <label>Optical opacity <span>{Math.round(evidence.opticalOpacity * 100)}%</span><input aria-label="Optical overlay opacity" type="range" min={0} max={1} step={.05} value={evidence.opticalOpacity} onChange={event => onEvidenceChange({ ...evidence, opticalOpacity: Number(event.target.value) })} /></label>
         </>}
       </div>}
+      {onOpenTerrain && <button className="atlas-terrain-launch" onClick={onOpenTerrain}>Explore debris corridor in 3D ↗</button>}
     </m.div>
   )
 }

@@ -3,7 +3,7 @@ body:has(.atlas) { min-width: 0; }
   --atlas-bg: #141719;
   --atlas-paper: #e6e4dc;
   --atlas-muted: #a0a5a3;
-  --atlas-copper: #dfa36e;
+  --atlas-copper: #F65927;
   width: 100%;
   height: 100svh;
   min-height: 540px;

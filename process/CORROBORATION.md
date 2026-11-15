@@ -1,6 +1,35 @@
 Independent evidence for Balikabok
 ================================
 
+3D source-connected corridor
+---------------------------
+
+`node process/build_debris_corridor.mjs path/to/n14e120.hgt` produces
+`evidence/debris-corridor.json` from the cached historical NASADEM tile and
+existing local GCOV change rasters. It does not download or modify those inputs.
+Figures 5–6 of the supplied NOAH report inform the source-to-downstream viewing
+concept; their illustrated footprint is not traced or presented as NISAR data.
+
+The seed is the highest historical-elevation vertex on the largest
+optical-supported event-interval NISAR patch centered within the mountain clip.
+This is a radar-supported source candidate, not the surveyed landslide head.
+Routing uses 60 m terrain cells buffered beyond the study rectangle, steepest
+D8 descent on a priority-flood-filled surface and acyclic receiver-tree routing
+on flats. The path stops at the study boundary, not the observed debris terminus.
+Historical terrain cannot represent event-created blockages. Lowland routing is
+especially uncertain; path distance is not measured event runout.
+
+For each existing NISAR interval, sample the original hotspot peak and signed
+backscatter change within 100 m of each route station at 20 m spacing. Preserve
+valid-sample fractions and null hotspot results separately. The terrain viewer
+drapes the actual dated hotspot PNG and nearest same-side optical image using
+their Web Mercator bounds, and supplies an along-route inspection slider.
+The terrain mesh uses 181 × 141 historical elevation samples with ×2 vertical
+exaggeration; its geometry is geographic context, not post-slide topography.
+Arrows show inferred drainage direction. No animated flow, speed, water depth,
+transport timing, displacement in metres or causal flood attribution is inferred
+from NISAR. All source acquisition links and actual imagery dates remain visible.
+
 Run `python process/fetch_corroboration.py --inventory` to query NASA CMR.
 Run `python process/fetch_corroboration.py --extract` to reproduce the exports.
 Use the environment containing `process/requirements.txt` and an existing Earthdata

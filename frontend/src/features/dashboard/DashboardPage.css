@@ -111,11 +111,11 @@
 
 .dashboard-analysis-card:hover {
   background: #222627;
-  border-color: #a17453;
+  border-color: #F65927;
 }
 
 .dashboard-analysis-card:focus-visible {
-  outline: 2px solid #d08a58;
+  outline: 2px solid #F65927;
   outline-offset: 4px;
 }
 
@@ -140,7 +140,7 @@
 .dashboard-card-arrow {
   align-self: flex-end;
 
-  color: #d08a58;
+  color: #F65927;
   font-size: 26px;
   line-height: 1;
 

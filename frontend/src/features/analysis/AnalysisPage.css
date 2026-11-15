@@ -2,7 +2,7 @@
 .temporal-page {
   --tp-ink: #e9e3d9;
   --tp-muted: #a9b2ae;
-  --tp-accent: #d08a58;
+  --tp-accent: #F65927;
   --tp-border: #343a39;
   min-height: 100dvh;
   padding: 28px clamp(20px, 3vw, 48px) 36px;
@@ -48,12 +48,12 @@
 .temporal-error { color: #edae91; font-size: 12px; }
 .temporal-product-switch { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; padding: 4px; background: #111516; border: 1px solid var(--tp-border); }
 .temporal-product-switch button { border: 0; background: transparent; color: #a9b2ae; padding: 10px 8px; font-size: 13px; cursor: pointer; }
-.temporal-product-switch button.is-active { background: #312923; color: #f3be92; }
+.temporal-product-switch button.is-active { background: #312923; color: #F65927; }
 .temporal-layer-detail { margin: 18px 0 0; border-top: 1px solid var(--tp-border); }
 .temporal-layer-detail div { display: flex; justify-content: space-between; gap: 14px; padding: 11px 0; border-bottom: 1px solid var(--tp-border); font-size: 12px; }
 .temporal-layer-detail dt { color: #9eaaa3; }
 .temporal-layer-detail dd { margin: 0; color: var(--tp-ink); text-align: right; overflow-wrap: anywhere; }
-.temporal-layer-detail a { color: #e2a474; }
+.temporal-layer-detail a { color: #F65927; }
 .temporal-methodology p { margin: 0; color: #a8b0ab; font-size: 12px; line-height: 1.75; }
 .temporal-timeline { padding: 23px 24px 20px; border: 1px solid var(--tp-border); border-top: 0; background: #171a1b; }
 .temporal-timeline-heading { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
@@ -67,7 +67,7 @@
 .temporal-timeline-track span { color: #a7b0ab; font-size: 11px; white-space: nowrap; }
 .temporal-timeline-track input { min-width: 0; width: 100%; accent-color: var(--tp-accent); }
 .temporal-timeline-foot { display: flex; justify-content: space-between; gap: 18px; font-size: 12px; color: #d5d9d2; }
-.temporal-timeline-foot span:last-child { color: #dca074; }
+.temporal-timeline-foot span:last-child { color: #F65927; }
 .temporal-timeline-note { font-size: 11px; line-height: 1.5; color: #8b9590; margin: 14px 0 0; }
 @media(max-width: 1100px) { .temporal-workspace { grid-template-columns: minmax(0,1fr) 285px; } .temporal-context .temporal-context-note { margin-left: 0; } }
 @media(max-width: 790px) { .temporal-header { align-items: flex-start; } .temporal-workspace { display: flex; flex-direction: column; height: auto; min-height: 0; } .temporal-map-panel { height: 450px; } .temporal-inspector { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); border-left: 0; border-top: 1px solid var(--tp-border); overflow: visible; } .temporal-control-section { border-right: 1px solid var(--tp-border); } .temporal-methodology { grid-column: 1/-1; } }

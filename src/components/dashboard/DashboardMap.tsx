@@ -69,7 +69,7 @@ export default memo(function DashboardMap({ location, observation, cachedLayers,
       </>}
       {observation && <>
         <Polygon positions={observation.acquisition.metadata.aoi.coordinates[0].map(([lon, lat]) => [lat, lon] as LatLngTuple)}
-          pathOptions={{ color: '#dfa36e', weight: 1.5, opacity: 0.85, fill: false, dashArray: '5 6', interactive: false }} />
+          pathOptions={{ color: '#F65927', weight: 1.5, opacity: 0.85, fill: false, dashArray: '5 6', interactive: false }} />
         {visible && <RasterBlendOverlay observation={observation} next={nextObservation} fraction={blendFraction}
           cachedLayers={cachedLayers} gunwCache={gunwCache} onStatus={onRasterStatus} attempt={attempt} />}
       </>}

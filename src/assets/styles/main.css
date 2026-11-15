@@ -34,12 +34,12 @@ a {
 }
 
 ::selection {
-  background: #d08a58;
+  background: #F65927;
   color: #101112;
 }
 
 :focus-visible {
-  outline: 2px solid #d08a58;
+  outline: 2px solid #F65927;
   outline-offset: 4px;
 }
 
@@ -66,14 +66,14 @@ a {
 }
 
 .brand-mark {
-  color: #d08a58;
+  color: #F65927;
   font-size: 23px;
   margin-right: 9px;
   font-weight: 400;
 }
 
 .wordmark-period {
-  color: #d08a58;
+  color: #F65927;
 }
 
 .site-nav {
@@ -104,7 +104,7 @@ a {
 }
 
 .nav-launch:hover {
-  border-color: #d08a58;
+  border-color: #F65927;
 }
 
 /* ==========================================
@@ -149,7 +149,7 @@ a {
 .hero-title em {
   font-weight: 400;
   font-style: italic;
-  color: #d29060;
+  color: #F65927;
 }
 
 .hero-description {
@@ -171,7 +171,7 @@ a {
 /* Hero Buttons */
 
 .action-primary {
-  background: #d08a58;
+  background: #F65927;
   color: #191512;
 
   min-width: 215px;
@@ -191,7 +191,7 @@ a {
 }
 
 .action-primary:hover {
-  background: #e6a574;
+  background: #F65927;
   transform: translateY(-2px);
 }
 
@@ -208,7 +208,7 @@ a {
 }
 
 .action-text:hover {
-  color: #d9a47f;
+  color: #F65927;
 }
 
 /* Hero Globe */
@@ -284,7 +284,7 @@ a {
 }
 
 .mission-section h2 em {
-  color: #ab683f;
+  color: #F65927;
 }
 
 .mission-section .section-body > p {
@@ -350,7 +350,7 @@ a {
 }
 
 .approach-section h2 em {
-  color: #d18d60;
+  color: #F65927;
 }
 
 .approach-steps {

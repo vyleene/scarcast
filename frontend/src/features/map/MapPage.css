@@ -1,6 +1,6 @@
 /* Scarcast map workspace — independent of global and sidebar styles */
 .scar-map-page {
-  --sc-accent: #d08a58;
+  --sc-accent: #F65927;
   --sc-ivory: #e9e3d9;
   --sc-muted: #aab2ae;
   --sc-line: #353b3a;
@@ -102,7 +102,7 @@
 .scar-panel-intro { padding: 26px 0 18px; }
 .scar-panel-intro h2 { margin: 0 0 10px; font-size: 22px; letter-spacing: -.035em; font-weight: 600; }
 .scar-panel-intro p { margin: 0; color: var(--sc-muted); font-size: 13px; line-height: 1.65; }
-.scar-panel-intro .scar-case-notice { color: #d9a27e; margin-top: 12px; }
+.scar-panel-intro .scar-case-notice { color: #F65927; margin-top: 12px; }
 .scar-field { display: flex; flex-direction: column; align-items: stretch; gap: 9px; padding: 20px 0; border-top: 1px solid var(--sc-line); }
 .scar-field-label { color: var(--sc-muted); font-size: 12px; }
 .scar-field strong { font-size: 14px; font-weight: 600; overflow-wrap: anywhere; }
@@ -198,14 +198,14 @@
 .scar-selection-tools button.is-active {
   border-color: var(--sc-accent);
   background: #342b26;
-  color: #f0b58a;
+  color: #F65927;
 }
 .scar-selection-tools button:disabled { opacity: .42; cursor: not-allowed; }
 .scar-selection-tools > span { color: var(--sc-muted); font-size: 12px; }
 .scar-clear-inline {
   padding: 0;
   background: none;
-  color: #dca27b;
+  color: #F65927;
   border: 0;
   cursor: pointer;
   font: inherit;

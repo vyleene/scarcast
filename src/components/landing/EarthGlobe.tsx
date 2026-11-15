@@ -16,11 +16,11 @@ type Arc = {
 };
 
 const CONNECTIONS: Arc[] = [
-  { startLat: 14.6, startLng: 121.0, endLat: 35.7, endLng: 139.7, color: "#d9905a" },
+  { startLat: 14.6, startLng: 121.0, endLat: 35.7, endLng: 139.7, color: "#F65927" },
   { startLat: 14.6, startLng: 121.0, endLat: 1.35, endLng: 103.8, color: "#90a5b0" },
-  { startLat: 14.6, startLng: 121.0, endLat: -33.9, endLng: 151.2, color: "#d9905a" },
+  { startLat: 14.6, startLng: 121.0, endLat: -33.9, endLng: 151.2, color: "#F65927" },
   { startLat: 35.7, startLng: 139.7, endLat: 37.8, endLng: -122.4, color: "#90a5b0" },
-  { startLat: 1.35, startLng: 103.8, endLat: 51.5, endLng: -0.1, color: "#d9905a" },
+  { startLat: 1.35, startLng: 103.8, endLat: 51.5, endLng: -0.1, color: "#F65927" },
   { startLat: 40.7, startLng: -74.0, endLat: 51.5, endLng: -0.1, color: "#90a5b0" },
 ];
 

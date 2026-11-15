@@ -153,3 +153,6 @@ vite.config.ts.timestamp-*
 
 # Distribution folders
 dist/
+
+# Local inspection tools, extracted inputs, and browser verification profiles
+/.tmp-*

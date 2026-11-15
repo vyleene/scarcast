@@ -119,13 +119,13 @@ export default function MapViewer({
           <Circle
             center={area.center}
             radius={area.radiusMeters}
-            pathOptions={{ color: "#d08a58", weight: 2, fillColor: "#d08a58", fillOpacity: 0.12 }}
+            pathOptions={{ color: "#F65927", weight: 2, fillColor: "#F65927", fillOpacity: 0.12 }}
             interactive={false}
           />
           <CircleMarker
             center={area.center}
             radius={5}
-            pathOptions={{ color: "#fff0e3", weight: 2, fillColor: "#d08a58", fillOpacity: 1 }}
+            pathOptions={{ color: "#fff0e3", weight: 2, fillColor: "#F65927", fillOpacity: 1 }}
             interactive={false}
           />
         </>
@@ -140,7 +140,7 @@ export default function MapViewer({
             pathOptions={{
               color: selectedCaseId === site.id ? "#fff0e3" : "#101112",
               weight: 2,
-              fillColor: "#d08a58",
+              fillColor: "#F65927",
               fillOpacity: 0.95,
             }}
             eventHandlers={{ click: () => onSelectCase(site.id) }}

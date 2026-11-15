@@ -62,8 +62,8 @@ export default function TemporalMap({ center, radius, release, compareRelease, c
       )}
       {radius && (
         <>
-          <Circle center={center} radius={radius} pathOptions={{ color: "#D08A58", weight: 2, fillColor: "#D08A58", fillOpacity: 0.06 }} interactive={false}/>
-          <CircleMarker center={center} radius={4} pathOptions={{ color: "#fff0e3", weight: 2, fillColor: "#D08A58", fillOpacity: 1 }} interactive={false}/>
+          <Circle center={center} radius={radius} pathOptions={{ color: "#F65927", weight: 2, fillColor: "#F65927", fillOpacity: 0.06 }} interactive={false}/>
+          <CircleMarker center={center} radius={4} pathOptions={{ color: "#fff0e3", weight: 2, fillColor: "#F65927", fillOpacity: 1 }} interactive={false}/>
         </>
       )}
     </MapContainer>

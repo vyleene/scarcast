@@ -1,5 +1,5 @@
 .atlas-live-dot, .atlas-loading-dot { display: inline-block; width: 6px; height: 6px; background: var(--atlas-copper); border-radius: 50%; flex-shrink: 0; }
-.atlas-live-dot { box-shadow: 0 0 0 4px #dfa36e0e; }
+.atlas-live-dot { box-shadow: 0 0 0 4px #F659270e; }
 .atlas-loading-dot { animation: atlas-pulse 1s ease-in-out infinite; }
 .atlas-overlay-toggle { position: absolute; z-index: 500; right: 26px; top: 110px; padding: 12px 15px; background: #1a1e1ff0; border: 1px solid #414a43; }
 .atlas-overlay-toggle > .atlas-eyebrow { display: block; color: #9aa59c; font-size: 8px; margin-bottom: 8px; }

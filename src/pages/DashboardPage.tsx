@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { AnimatePresence } from 'framer-motion'
 import 'leaflet/dist/leaflet.css'
 import '../assets/styles/dashboard/index.css'
@@ -23,12 +23,14 @@ import { observationBlend } from '../components/dashboard/observationBlend'
 import { clearBackscatterChangeCache } from '../services/processBackscatterChange'
 import { initialEvidenceSelection, opticalSceneAt } from '../services/corroborationData'
 import type { EvidenceSelection } from '../services/corroborationData'
+const DebrisTerrainView = lazy(() => import('../components/dashboard/DebrisTerrainView'))
 
 const emptyBackscatter: NonNullable<typeof gcovManifest[string]> = []
 const emptyPairs: ReturnType<typeof getGUNWAcquisitions> = []
 
 export default function DashboardPage() {
   const [location, setLocation] = useState<string | null>(null)
+  const [terrainOpen, setTerrainOpen] = useState(false)
   const [dateIndex, setDateIndex] = useState(0)
   const [pairIndex, setPairIndex] = useState(0)
   const [comparisonIndex, setComparisonIndex] = useState(0)
@@ -106,6 +108,7 @@ export default function DashboardPage() {
   }, [])
 
   const selectLocation = useCallback((slug: string) => {
+    setTerrainOpen(false)
     setEvidenceSelection(initialEvidenceSelection)
     setComparisonIndex(0)
     const nextBackscatter = gcovManifest[slug] ?? emptyBackscatter
@@ -150,11 +153,14 @@ export default function DashboardPage() {
 
   useEffect(() => {
     function onKeyDown(event: KeyboardEvent) {
-      if (event.key === 'Escape') backToWorld()
+      if (event.key === 'Escape') {
+        if (terrainOpen) setTerrainOpen(false)
+        else backToWorld()
+      }
     }
     window.addEventListener('keydown', onKeyDown)
     return () => window.removeEventListener('keydown', onKeyDown)
-  }, [backToWorld])
+  }, [backToWorld, terrainOpen])
 
   return (
     <DashboardMotion>
@@ -171,6 +177,7 @@ export default function DashboardPage() {
           <AnimatePresence initial={false}>
             {!location && <LocationIndex key="locations" onSelectLocation={selectLocation} />}
             {observation && <MapLayerControls key="layer-controls" visible={visible} mode={mode} modes={modes} onModeChange={onModeChange}
+              onOpenTerrain={location === 'balikabok_downstream' || location === 'mount_balikabok' ? () => setTerrainOpen(true) : undefined}
               evidence={location === 'balikabok_downstream' ? syncedEvidenceSelection : undefined} onEvidenceChange={setEvidenceSelection}
               onToggle={() => setVisible(value => !value)} />}
             {observation && <ObservationTimeline key="timeline" items={observations}
@@ -180,6 +187,7 @@ export default function DashboardPage() {
                 onRetry={() => { setRasterState(null); setAttempt(value => value + 1) }} />
             </ObservationTimeline>}
           </AnimatePresence>
+          {terrainOpen && (location === 'balikabok_downstream' || location === 'mount_balikabok') && <Suspense fallback={<div className="atlas-terrain-view">Loading terrain…</div>}><DebrisTerrainView onClose={() => setTerrainOpen(false)} /></Suspense>}
         </section>
         <AnimatePresence>
           {location && <LocationPanel key={location} location={location} acquisition={acquisition} acquisitions={acquisitions}

@@ -31,7 +31,7 @@
 }
 
 .sidebar-brand-icon,
-.sidebar-brand-dot { color: #d08a58; }
+.sidebar-brand-dot { color: #F65927; }
 .sidebar-brand-icon { font-size: 22px; font-weight: 400; }
 .sidebar-content { padding: 32px 14px; }
 .sidebar-heading {
@@ -64,7 +64,7 @@
   background: #312b27;
   border-color: #594537;
 }
-.sidebar-link-active svg { color: #d08a58; }
+.sidebar-link-active svg { color: #F65927; }
 .sidebar-footer { margin-top: auto; padding: 0 25px 27px; }
 .sidebar-footer-rule { height: 1px; background: #343a3b; margin-bottom: 20px; }
 .sidebar-footer-title { font-size: 13px; font-weight: 600; }

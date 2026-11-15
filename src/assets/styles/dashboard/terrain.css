@@ -1,0 +1,30 @@
+.atlas-terrain-launch { margin-top: 15px; padding-top: 12px !important; border-top: 1px solid #626d5955 !important; color: #F65927; text-align: left; }
+.atlas-terrain-view { position: fixed; inset: 0; z-index: 1000; background: #101719; color: #e6e4dc; overflow: hidden; }
+.atlas-terrain-canvas { position: absolute; inset: 0; }
+.atlas-terrain-canvas canvas { display: block; touch-action: none; }
+.atlas-terrain-view header { position: absolute; inset: 20px 22px auto; display: flex; align-items: start; justify-content: space-between; gap: 20px; pointer-events: none; }
+.atlas-terrain-view h2 { font-size: 24px; margin: 6px 0; font-weight: 500; text-shadow: 0 1px 8px #000; }
+.atlas-terrain-view button { pointer-events: auto; background: #192221ed; border: 1px solid #71817b; padding: 10px 13px; color: #e6e4dc; font: inherit; font-size: 11px; cursor: pointer; }
+.atlas-terrain-tools, .atlas-terrain-station { position: absolute; background: #111b1aeb; border: 1px solid #66766c77; padding: 14px; font-size: 11px; line-height: 1.65; }
+.atlas-terrain-tools { top: 105px; left: 22px; width: 250px; max-height: 43%; overflow-y: auto; }
+.atlas-terrain-view label { display: block; }
+.atlas-terrain-tools-toggle { width: 100%; text-align: left; margin-bottom: 10px; }
+.atlas-terrain-focus { padding: 5px 8px !important; margin: 2px 0 7px; }
+.atlas-terrain-limit summary { cursor: pointer; margin: 6px 0; }
+.atlas-terrain-view select { width: 100%; color: #e6e4dc; background: #26332d; border: 1px solid #66766c; padding: 8px; margin: 6px 0 12px; font: inherit; }
+.atlas-terrain-view p { margin: 8px 0; }
+.atlas-terrain-view input { accent-color: #F65927; }
+.atlas-terrain-station { bottom: 22px; left: 22px; right: 22px; max-width: 640px; }
+.atlas-terrain-station input { width: 100%; }
+.atlas-terrain-station strong { float: right; color: #F65927; }
+.atlas-terrain-limit { color: #a6b7ad; font-size: 10px; }
+.atlas-terrain-station a { color: #F65927; margin-right: 15px; font-size: 10px; }
+.atlas-terrain-radar-key, .atlas-terrain-route-key { display: inline-block; width: 14px; height: 3px; margin-right: 5px; background: #F65927; vertical-align: middle; }
+.atlas-terrain-route-key { background: #d9f0f2; }
+.atlas-terrain-error { position: absolute; right: 20px; top: 110px; max-width: 220px; padding: 12px; background: #342320; color: #ffd9c4; }
+@media(max-width: 700px) {
+  .atlas-terrain-view header { inset: 15px 12px auto; }
+  .atlas-terrain-view h2 { font-size: 19px; }
+  .atlas-terrain-tools { top: 105px; left: 12px; width: 210px; max-height: 40%; font-size: 10px; padding: 10px; }
+  .atlas-terrain-station { bottom: 12px; left: 12px; right: 12px; padding: 10px; font-size: 10px; max-height: 34%; overflow-y: auto; }
+}
