@@ -84,7 +84,6 @@ def extract_nepal_disaster(max_results=100):
 
     products = (
         ("GUNW", "UR", extract_gunw, {"coherence_threshold": 0.3}),
-        ("GCOV", "PR", extract_gcov, {"export_native": True, "export_db": True}),
         ("GOFF", "UR", extract_goff, {}),
     )
     for product, production_configuration, extract, options in products:
