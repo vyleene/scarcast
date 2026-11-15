@@ -1,0 +1,475 @@
+{
+  "source": "https://nisar.asf.earthdatacloud.nasa.gov/NISAR-UR/UR_L2_L_GUNW/NISAR_L2_UR_GUNW_029_098_A_016_030_4000_SH_20260831T233918_20260831T233952_20260912T233918_20260912T233952_P05023_F_F_J_001/NISAR_L2_UR_GUNW_029_098_A_016_030_4000_SH_20260831T233918_20260831T233952_20260912T233918_20260912T233952_P05023_F_F_J_001.h5",
+  "product": "GUNW",
+  "aoi": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          85.1051,
+          28.4059
+        ],
+        [
+          85.116,
+          27.787
+        ],
+        [
+          85.6093,
+          27.9082
+        ],
+        [
+          85.645,
+          28.3987
+        ],
+        [
+          85.1051,
+          28.4059
+        ]
+      ]
+    ]
+  },
+  "identification": {
+    "boundingPolygon": "POLYGON ((86.6012137246537 27.9916546770744 4879.48557022227,86.5314076608591 28.1968759561275 5382.02261630323,86.4653886719996 28.403030210058 5611.80859451884,86.4142619687515 28.6127783357533 4822.22607536273,86.3582199745289 28.8213767994216 4350.95263671914,86.2868174028643 29.0263258175426 4891.09570315136,86.2294221418619 29.2346574456171 4478.48876953237,86.1577938898016 29.4396086214019 4998.18749999953,86.0833948237871 29.6439240566851 5685.07275313447,86.0222449211363 29.8514437617095 5470.52343749995,85.9559509851628 30.0577597759294 5581.34033186304,85.6639124178749 29.9876240304431 5122.46386718191,85.3652452467286 29.9151067844869 6113.38720707914,85.096762003873 29.8492669169884 5686.20019531248,84.8382395970917 29.7852734063899 5162.05078124991,84.5748532011208 29.7194589388919 5746.71533039182,84.3342835055442 29.6588290784785 4913.34043241536,84.094676913423 29.5979304130393 4522.55029297124,83.8508054990104 29.5354169012659 5105.38183596088,83.6186362239863 29.4754232617602 5022.59863281239,83.3856150679117 29.4147242394377 5526.19726585322,83.4541016901486 29.2092043419783 5645.61669921791,83.5266924739025 29.0047995703946 5273.24278320994,83.5933412927667 28.7988735186894 5528.91359729285,83.6757687708148 28.5971198172118 3989.07164224298,83.756228531159 28.3948808633925 2636.21533218783,83.8349509698977 28.1922188327331 1443.84570312292,83.9106113775605 27.9887884974026 558.235551075894,83.9730567340221 27.7819423810981 1106.03027343646,84.04938350117 27.5787528638036 79.321214336464,84.1158788609065 27.3730335005675 112.657418960309,84.3414976918518 27.4313236911915 177.658508469378,84.5691514327689 27.4897056042562 494.190950053182,84.8055110827911 27.5498661280855 423.340605745574,85.0280150875115 27.6060541246046 2197.41381836341,85.2846299219055 27.6703739981258 1307.72119053637,85.5388119599919 27.7335330710363 1324.81823730548,85.7992016612018 27.7976744152081 1505.47832289145,86.0528091275107 27.8595888113312 2917.49554377697,86.3188877262792 27.9239756847371 4074.32153320478,86.6012137246537 27.9916546770744 4879.48557022227))",
+    "compositeReleaseId": "P05023",
+    "diagnosticModeFlag": 0,
+    "frameNumber": 16,
+    "granuleId": "NISAR_L2_UR_GUNW_029_098_A_016_030_4000_SH_20260831T233918_20260831T233952_20260912T233918_20260912T233952_P05023_F_F_J_001",
+    "instrumentName": "L-SAR",
+    "isDithered": "True",
+    "isFullFrame": "True",
+    "isGeocoded": "True",
+    "isMixedMode": "False",
+    "isUrgentObservation": "True",
+    "listOfFrequencies": [
+      "A"
+    ],
+    "lookDirection": "Left",
+    "missionId": "NISAR",
+    "orbitPassDirection": "Ascending",
+    "platformName": "NISAR",
+    "processingCenter": "JPL",
+    "processingDateTime": "2026-09-13T08:41:34",
+    "processingType": "Urgent",
+    "productDoi": "10.5067/NIL2GUNW-P1",
+    "productLevel": "L2",
+    "productSpecificationVersion": "1.5.0",
+    "productType": "GUNW",
+    "productVersion": "1.0.11",
+    "radarBand": "L",
+    "referenceAbsoluteOrbitNumber": 5733,
+    "referenceHasInputDataException": 0,
+    "referenceIsJointObservation": "True",
+    "referenceListOfObservationModes": [
+      "(NOT SPECIFIED)"
+    ],
+    "referencePlannedDatatakeId": [
+      "dtid_2026243233240"
+    ],
+    "referencePlannedObservationId": [
+      "oid_2026243233712"
+    ],
+    "referenceZeroDopplerEndTime": "2026-08-31T23:39:52.999342105",
+    "referenceZeroDopplerStartTime": "2026-08-31T23:39:18.000000000",
+    "secondaryAbsoluteOrbitNumber": 5906,
+    "secondaryHasInputDataException": 0,
+    "secondaryIsJointObservation": "True",
+    "secondaryListOfObservationModes": [
+      "(NOT SPECIFIED)"
+    ],
+    "secondaryPlannedDatatakeId": [
+      "dtid_2026255233240"
+    ],
+    "secondaryPlannedObservationId": [
+      "oid_2026255233712"
+    ],
+    "secondaryZeroDopplerEndTime": "2026-09-12T23:39:52.999342105",
+    "secondaryZeroDopplerStartTime": "2026-09-12T23:39:18.000000000",
+    "staticLayersDataAccess": "https://nisar-services.earthdata.nasa.gov/redirect/NISAR_L2_STATIC/NISAR_L2_UR_GUNW_029_098_A_016_030_4000_SH_20260831T233918_20260831T233952_20260912T233918_20260912T233952_P05023_F_F_J_001.h5",
+    "trackNumber": 98
+  },
+  "processing": "AOI clipping only; source grids, native values, and dtypes preserved",
+  "validity": "Read GeoTIFF internal masks with masked=True; invalid stored values are zero",
+  "limitations": [
+    "Unwrapped phase has not been atmospherically corrected or spatially referenced.",
+    "No displacement or landslide classification is computed; component labels have independent phase offsets.",
+    "Low coherence can be a change signal; native layers are not filtered by the phase-validity threshold.",
+    "3-D metadata cubes require terrain-height interpolation and are not exported as 2-D rasters."
+  ],
+  "frequencies": {
+    "A": {
+      "primary_grid": "unwrappedInterferogram",
+      "bounds_file": "bounds.json",
+      "coherence_threshold": 0.3,
+      "grids": {
+        "unwrappedInterferogram": {
+          "source_crs": "EPSG:32645",
+          "shape": [
+            872,
+            681
+          ],
+          "transform": [
+            80.0,
+            0.0,
+            313040.0,
+            0.0,
+            -80.0,
+            3143840.0
+          ],
+          "bounds_key": "unwrappedInterferogram",
+          "polarizations": [
+            "HH"
+          ],
+          "layers": {
+            "mask": {
+              "file": "unwrapped_mask.tif",
+              "source_path": "/science/LSAR/GUNW/grids/frequencyA/unwrappedInterferogram/mask",
+              "dtype": "uint32",
+              "attributes": {
+                "_FillValue": 255,
+                "description": "Combination of a water mask, a mask of subswaths of valid samples, and data anomalies in the reference RSLC and the geometrically coregistered secondary RSLC. Each pixel value is encoded as a 32-bit unsigned integer. Bits 0-7 represent subswath encoding, where the most significant digit represents the water flag of that pixel in the reference RSLC, where 1 is water and 0 is non-water; the second most significant digit corresponds to the subswath number of the reference RSLC, and the least significant digit corresponds to the subswath number of the secondary RSLC; a value of 0 in either digit indicates an invalid sample in the corresponding RSLC. Bits 8-15 represent bitwise anomaly flags for the secondary RSLC, and bits 16-23 represent bitwise anomaly flags for the reference RSLC, with each bit corresponding to a specific anomaly condition. A value of 0 in the anomaly bits indicates that no anomaly is detected in the corresponding RSLC. Bit 24 indicates a bit mask for ionospheric phase mask used during filtering of ionospheric phase. This ionospheric phase mask indicates pixels which were masked out and filled with interpolated data. Bits 25-31 are reserved for future use",
+                "disclaimer": "Water Mask for the NASA-ISRO NISAR mission version 0.5, derived through analysis and processing of multiple input datasets, referenced to the WGS84 ellipsoid. Water mask derived at the Jet Propulsion Laboratory, California Institute of Technology, under contract with NASA, using multiple open datasets: JRC Global Surface Water v1.3 (Pekel et al 2016, Nature 540, 418-422,  EC JRC/Google); ESA WorldCover 10 m 2020 ( ESA WorldCover project 2020 / Contains modified Copernicus Sentinel data (2020) processed by ESA WorldCover consortium); OpenStreetMap Water Polygons ( OpenStreetMap contributors, ODbL 1.0); MEaSUREs GIMP Mask v1 (Howat 2017, doi:10.5067/B8X58MQBFUPA; Howat et al 2014). All trademarks and rights remain with their respective owners; NISAR mission organizations assume no liability for use of this product.",
+                "grid_mapping": "projection",
+                "percentage_water": 1.013143023537018,
+                "valid_min": 0
+              },
+              "valid_pixel_count": 485925,
+              "visualization": {
+                "rendering": "categorical",
+                "interpolation": "nearest"
+              }
+            },
+            "HH/unwrappedPhase": {
+              "file": "HH_unwrappedPhase.tif",
+              "source_path": "/science/LSAR/GUNW/grids/frequencyA/unwrappedInterferogram/HH/unwrappedPhase",
+              "dtype": "float32",
+              "attributes": {
+                "_FillValue": null,
+                "description": "Unwrapped interferogram between HH layers",
+                "grid_mapping": "projection",
+                "max_value": 12.798981666564941,
+                "mean_value": -24.608016967773438,
+                "min_value": -62.11843490600586,
+                "sample_stddev": 15.856295585632324,
+                "units": "radians"
+              },
+              "valid_pixel_count": 485925,
+              "visualization": {
+                "colormap": "RdBu_r",
+                "min": -28.78998908996582,
+                "max": 28.78998908996582
+              }
+            },
+            "HH/coherenceMagnitude": {
+              "file": "HH_coherenceMagnitude.tif",
+              "source_path": "/science/LSAR/GUNW/grids/frequencyA/unwrappedInterferogram/HH/coherenceMagnitude",
+              "dtype": "float32",
+              "attributes": {
+                "_FillValue": null,
+                "description": "Coherence magnitude between HH layers",
+                "grid_mapping": "projection",
+                "max_value": 0.9928483963012695,
+                "mean_value": 0.5591140985488892,
+                "min_value": 0.0024842945858836174,
+                "sample_stddev": 0.23411749303340912,
+                "units": "1"
+              },
+              "valid_pixel_count": 485925,
+              "visualization": {
+                "colormap": "viridis",
+                "min": 0,
+                "max": 1
+              }
+            },
+            "HH/connectedComponents": {
+              "file": "HH_connectedComponents.tif",
+              "source_path": "/science/LSAR/GUNW/grids/frequencyA/unwrappedInterferogram/HH/connectedComponents",
+              "dtype": "uint16",
+              "attributes": {
+                "_FillValue": 65535,
+                "description": "Connected components for HH layer",
+                "grid_mapping": "projection",
+                "units": "1"
+              },
+              "valid_pixel_count": 485925,
+              "visualization": {
+                "rendering": "categorical",
+                "interpolation": "nearest"
+              }
+            },
+            "HH/ionospherePhaseScreen": {
+              "file": "HH_ionospherePhaseScreen.tif",
+              "source_path": "/science/LSAR/GUNW/grids/frequencyA/unwrappedInterferogram/HH/ionospherePhaseScreen",
+              "dtype": "float32",
+              "attributes": {
+                "_FillValue": null,
+                "description": "Ionosphere phase screen",
+                "grid_mapping": "projection",
+                "max_value": -20.21002769470215,
+                "mean_value": -22.602907180786133,
+                "min_value": -24.97104263305664,
+                "sample_stddev": 1.003767728805542,
+                "units": "radians"
+              },
+              "valid_pixel_count": 485925,
+              "visualization": {
+                "colormap": "RdBu_r",
+                "min": -23.750174942016603,
+                "max": 23.750174942016603
+              }
+            },
+            "HH/ionospherePhaseScreenUncertainty": {
+              "file": "HH_ionospherePhaseScreenUncertainty.tif",
+              "source_path": "/science/LSAR/GUNW/grids/frequencyA/unwrappedInterferogram/HH/ionospherePhaseScreenUncertainty",
+              "dtype": "float32",
+              "attributes": {
+                "_FillValue": null,
+                "description": "Uncertainty of the ionosphere phase screen",
+                "grid_mapping": "projection",
+                "max_value": 2.688173770904541,
+                "mean_value": 1.025644063949585,
+                "min_value": 0.47100409865379333,
+                "sample_stddev": 0.3119906187057495,
+                "units": "radians"
+              },
+              "valid_pixel_count": 485925,
+              "visualization": {
+                "colormap": "viridis",
+                "min": 0.6745831513404846,
+                "max": 1.7210308265686036
+              }
+            },
+            "HH/phase_valid_mask": {
+              "file": "HH_phase_valid_mask.tif",
+              "derived": true,
+              "criteria": [
+                "Inside AOI with finite, non-fill unwrapped phase and coherence",
+                "0.3 <= coherenceMagnitude <= 1",
+                "Land, valid reference/secondary subswaths, and no RSLC anomaly flags",
+                "connectedComponents is neither 0 (unlabeled) nor 65535 (fill)"
+              ],
+              "valid_pixel_count": 393312
+            }
+          },
+          "missing_layers": [
+            "HH/validDataMask"
+          ]
+        },
+        "wrappedInterferogram": {
+          "source_crs": "EPSG:32645",
+          "shape": [
+            3470,
+            2704
+          ],
+          "transform": [
+            20.0,
+            0.0,
+            313240.0,
+            0.0,
+            -20.0,
+            3143680.0
+          ],
+          "bounds_key": "wrappedInterferogram",
+          "polarizations": [
+            "HH"
+          ],
+          "layers": {
+            "mask": {
+              "file": "wrapped_mask.tif",
+              "source_path": "/science/LSAR/GUNW/grids/frequencyA/wrappedInterferogram/mask",
+              "dtype": "uint32",
+              "attributes": {
+                "_FillValue": 255,
+                "description": "Combination of a water mask, a mask of subswaths of valid samples, and data anomalies in the reference RSLC and the geometrically coregistered secondary RSLC. Each pixel value is encoded as a 32-bit unsigned integer. Bits 0-7 represent subswath encoding, where the most significant digit represents the water flag of that pixel in the reference RSLC, where 1 is water and 0 is non-water; the second most significant digit corresponds to the subswath number of the reference RSLC, and the least significant digit corresponds to the subswath number of the secondary RSLC; a value of 0 in either digit indicates an invalid sample in the corresponding RSLC. Bits 8-15 represent bitwise anomaly flags for the secondary RSLC, and bits 16-23 represent bitwise anomaly flags for the reference RSLC, with each bit corresponding to a specific anomaly condition. A value of 0 in the anomaly bits indicates that no anomaly is detected in the corresponding RSLC. Bits 24-31 are reserved for future use",
+                "disclaimer": "Water Mask for the NASA-ISRO NISAR mission version 0.5, derived through analysis and processing of multiple input datasets, referenced to the WGS84 ellipsoid. Water mask derived at the Jet Propulsion Laboratory, California Institute of Technology, under contract with NASA, using multiple open datasets: JRC Global Surface Water v1.3 (Pekel et al 2016, Nature 540, 418-422,  EC JRC/Google); ESA WorldCover 10 m 2020 ( ESA WorldCover project 2020 / Contains modified Copernicus Sentinel data (2020) processed by ESA WorldCover consortium); OpenStreetMap Water Polygons ( OpenStreetMap contributors, ODbL 1.0); MEaSUREs GIMP Mask v1 (Howat 2017, doi:10.5067/B8X58MQBFUPA; Howat et al 2014). All trademarks and rights remain with their respective owners; NISAR mission organizations assume no liability for use of this product.",
+                "grid_mapping": "projection",
+                "percentage_water": 1.0596367366344712,
+                "valid_min": 0
+              },
+              "valid_pixel_count": 7778280,
+              "visualization": {
+                "rendering": "categorical",
+                "interpolation": "nearest"
+              }
+            },
+            "HH/wrappedInterferogram": {
+              "file": "wrapped_HH_wrappedInterferogram.tif",
+              "source_path": "/science/LSAR/GUNW/grids/frequencyA/wrappedInterferogram/HH/wrappedInterferogram",
+              "dtype": "complex64",
+              "attributes": {
+                "_FillValue": {
+                  "real": null,
+                  "imag": null
+                },
+                "description": "Complex wrapped interferogram between HH layers",
+                "grid_mapping": "projection",
+                "units": "1"
+              },
+              "valid_pixel_count": 7778280,
+              "visualization": {
+                "rendering": "complex",
+                "phase_units": "radians"
+              }
+            },
+            "HH/coherenceMagnitude": {
+              "file": "wrapped_HH_coherenceMagnitude.tif",
+              "source_path": "/science/LSAR/GUNW/grids/frequencyA/wrappedInterferogram/HH/coherenceMagnitude",
+              "dtype": "float32",
+              "attributes": {
+                "_FillValue": null,
+                "description": "Coherence magnitude between HH layers",
+                "grid_mapping": "projection",
+                "max_value": 0.9985458254814148,
+                "mean_value": 0.4086010158061981,
+                "min_value": 0.0,
+                "sample_stddev": 0.3170952796936035,
+                "units": "1"
+              },
+              "valid_pixel_count": 7778280,
+              "visualization": {
+                "colormap": "viridis",
+                "min": 0,
+                "max": 1
+              }
+            },
+            "HH/wrappedPhase": {
+              "file": "wrapped_HH_wrappedPhase.tif",
+              "derived": true,
+              "units": "radians",
+              "formula": "angle(wrappedInterferogram)",
+              "visualization": {
+                "colormap": "twilight",
+                "min": -3.141592653589793,
+                "max": 3.141592653589793
+              }
+            }
+          },
+          "missing_layers": [
+            "HH/validDataMask"
+          ]
+        },
+        "pixelOffsets": {
+          "source_crs": "EPSG:32645",
+          "shape": [
+            872,
+            681
+          ],
+          "transform": [
+            80.0,
+            0.0,
+            313040.0,
+            0.0,
+            -80.0,
+            3143840.0
+          ],
+          "bounds_key": "pixelOffsets",
+          "polarizations": [
+            "HH"
+          ],
+          "layers": {
+            "mask": {
+              "file": "offsets_mask.tif",
+              "source_path": "/science/LSAR/GUNW/grids/frequencyA/pixelOffsets/mask",
+              "dtype": "uint32",
+              "attributes": {
+                "_FillValue": 255,
+                "description": "Combination of a water mask, a mask of subswaths of valid samples, and data anomalies in the reference RSLC and the geometrically coregistered secondary RSLC. Each pixel value is encoded as a 32-bit unsigned integer. Bits 0-7 represent subswath encoding, where the most significant digit represents the water flag of that pixel in the reference RSLC, where 1 is water and 0 is non-water; the second most significant digit corresponds to the subswath number of the reference RSLC, and the least significant digit corresponds to the subswath number of the secondary RSLC; a value of 0 in either digit indicates an invalid sample in the corresponding RSLC. Bits 8-15 represent bitwise anomaly flags for the secondary RSLC, and bits 16-23 represent bitwise anomaly flags for the reference RSLC, with each bit corresponding to a specific anomaly condition. A value of 0 in the anomaly bits indicates that no anomaly is detected in the corresponding RSLC. Bits 24-31 are reserved for future use",
+                "disclaimer": "Water Mask for the NASA-ISRO NISAR mission version 0.5, derived through analysis and processing of multiple input datasets, referenced to the WGS84 ellipsoid. Water mask derived at the Jet Propulsion Laboratory, California Institute of Technology, under contract with NASA, using multiple open datasets: JRC Global Surface Water v1.3 (Pekel et al 2016, Nature 540, 418-422,  EC JRC/Google); ESA WorldCover 10 m 2020 ( ESA WorldCover project 2020 / Contains modified Copernicus Sentinel data (2020) processed by ESA WorldCover consortium); OpenStreetMap Water Polygons ( OpenStreetMap contributors, ODbL 1.0); MEaSUREs GIMP Mask v1 (Howat 2017, doi:10.5067/B8X58MQBFUPA; Howat et al 2014). All trademarks and rights remain with their respective owners; NISAR mission organizations assume no liability for use of this product.",
+                "grid_mapping": "projection",
+                "percentage_water": 1.013143023537018,
+                "valid_min": 0
+              },
+              "valid_pixel_count": 485925,
+              "visualization": {
+                "rendering": "categorical",
+                "interpolation": "nearest"
+              }
+            },
+            "HH/alongTrackOffset": {
+              "file": "offsets_HH_alongTrackOffset.tif",
+              "source_path": "/science/LSAR/GUNW/grids/frequencyA/pixelOffsets/HH/alongTrackOffset",
+              "dtype": "float32",
+              "attributes": {
+                "_FillValue": null,
+                "description": "Along-track offset",
+                "grid_mapping": "projection",
+                "max_value": -0.1890133023262024,
+                "mean_value": -0.3627336323261261,
+                "min_value": -0.4405231475830078,
+                "sample_stddev": 0.05721929296851158,
+                "units": "meters"
+              },
+              "valid_pixel_count": 451452,
+              "visualization": {
+                "colormap": "RdBu_r",
+                "min": -0.43805914998054507,
+                "max": 0.43805914998054507
+              }
+            },
+            "HH/slantRangeOffset": {
+              "file": "offsets_HH_slantRangeOffset.tif",
+              "source_path": "/science/LSAR/GUNW/grids/frequencyA/pixelOffsets/HH/slantRangeOffset",
+              "dtype": "float32",
+              "attributes": {
+                "_FillValue": null,
+                "description": "Slant range offset",
+                "grid_mapping": "projection",
+                "max_value": 9.208398818969727,
+                "mean_value": 8.661194801330566,
+                "min_value": 7.976779937744141,
+                "sample_stddev": 0.35459861159324646,
+                "units": "meters"
+              },
+              "valid_pixel_count": 485925,
+              "visualization": {
+                "colormap": "RdBu_r",
+                "min": -8.802003898620605,
+                "max": 8.802003898620605
+              }
+            },
+            "HH/correlationSurfacePeak": {
+              "file": "offsets_HH_correlationSurfacePeak.tif",
+              "source_path": "/science/LSAR/GUNW/grids/frequencyA/pixelOffsets/HH/correlationSurfacePeak",
+              "dtype": "float32",
+              "attributes": {
+                "_FillValue": null,
+                "description": "Normalized cross-correlation surface peak",
+                "grid_mapping": "projection",
+                "max_value": 0.9899816513061523,
+                "mean_value": 0.6216210722923279,
+                "min_value": -0.04137444496154785,
+                "sample_stddev": 0.20598477125167847,
+                "units": "1"
+              },
+              "valid_pixel_count": 485925,
+              "visualization": {
+                "colormap": "viridis",
+                "min": 0,
+                "max": 1
+              }
+            }
+          },
+          "missing_layers": [
+            "HH/validDataMask"
+          ]
+        }
+      },
+      "missing_grids": [],
+      "omitted_metadata_cubes": [
+        "/science/LSAR/GUNW/metadata/radarGrid/alongTrackUnitVectorX",
+        "/science/LSAR/GUNW/metadata/radarGrid/alongTrackUnitVectorY",
+        "/science/LSAR/GUNW/metadata/radarGrid/elevationAngle",
+        "/science/LSAR/GUNW/metadata/radarGrid/groundTrackVelocity",
+        "/science/LSAR/GUNW/metadata/radarGrid/incidenceAngle",
+        "/science/LSAR/GUNW/metadata/radarGrid/losUnitVectorX",
+        "/science/LSAR/GUNW/metadata/radarGrid/losUnitVectorY",
+        "/science/LSAR/GUNW/metadata/radarGrid/parallelBaseline",
+        "/science/LSAR/GUNW/metadata/radarGrid/perpendicularBaseline",
+        "/science/LSAR/GUNW/metadata/radarGrid/referenceSlantRange",
+        "/science/LSAR/GUNW/metadata/radarGrid/referenceZeroDopplerAzimuthTime",
+        "/science/LSAR/GUNW/metadata/radarGrid/secondarySlantRange",
+        "/science/LSAR/GUNW/metadata/radarGrid/secondaryZeroDopplerAzimuthTime",
+        "/science/LSAR/GUNW/metadata/radarGrid/slantRangeSolidEarthTidesPhase"
+      ]
+    }
+  }
+}

@@ -1,0 +1,497 @@
+{
+  "source": "https://nisar.asf.earthdatacloud.nasa.gov/NISAR-UR/UR_L2_L_GOFF/NISAR_L2_UR_GOFF_029_098_A_016_030_4000_SH_20260831T233918_20260831T233952_20260912T233918_20260912T233952_P05023_F_F_J_001/NISAR_L2_UR_GOFF_029_098_A_016_030_4000_SH_20260831T233918_20260831T233952_20260912T233918_20260912T233952_P05023_F_F_J_001.h5",
+  "product": "GOFF",
+  "aoi": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          85.1051,
+          28.4059
+        ],
+        [
+          85.116,
+          27.787
+        ],
+        [
+          85.6093,
+          27.9082
+        ],
+        [
+          85.645,
+          28.3987
+        ],
+        [
+          85.1051,
+          28.4059
+        ]
+      ]
+    ]
+  },
+  "identification": {
+    "boundingPolygon": "POLYGON ((86.6012137246537 27.9916546770744 4879.48557022227,86.5314076608591 28.1968759561275 5382.02261630323,86.4653886719996 28.403030210058 5611.80859451884,86.4142619687515 28.6127783357533 4822.22607536273,86.3582199745289 28.8213767994216 4350.95263671914,86.2868174028643 29.0263258175426 4891.09570315136,86.2294221418619 29.2346574456171 4478.48876953237,86.1577938898016 29.4396086214019 4998.18749999953,86.0833948237871 29.6439240566851 5685.07275313447,86.0222449211363 29.8514437617095 5470.52343749995,85.9559509851628 30.0577597759294 5581.34033186304,85.6639124178749 29.9876240304431 5122.46386718191,85.3652452467286 29.9151067844869 6113.38720707914,85.096762003873 29.8492669169884 5686.20019531248,84.8382395970917 29.7852734063899 5162.05078124991,84.5748532011208 29.7194589388919 5746.71533039182,84.3342835055442 29.6588290784785 4913.34043241536,84.094676913423 29.5979304130393 4522.55029297124,83.8508054990104 29.5354169012659 5105.38183596088,83.6186362239863 29.4754232617602 5022.59863281239,83.3856150679117 29.4147242394377 5526.19726585322,83.4541016901486 29.2092043419783 5645.61669921791,83.5266924739025 29.0047995703946 5273.24278320994,83.5933412927667 28.7988735186894 5528.91359729285,83.6757687708148 28.5971198172118 3989.07164224298,83.756228531159 28.3948808633925 2636.21533218783,83.8349509698977 28.1922188327331 1443.84570312292,83.9106113775605 27.9887884974026 558.235551075894,83.9730567340221 27.7819423810981 1106.03027343646,84.04938350117 27.5787528638036 79.321214336464,84.1158788609065 27.3730335005675 112.657418960309,84.3414976918518 27.4313236911915 177.658508469378,84.5691514327689 27.4897056042562 494.190950053182,84.8055110827911 27.5498661280855 423.340605745574,85.0280150875115 27.6060541246046 2197.41381836341,85.2846299219055 27.6703739981258 1307.72119053637,85.5388119599919 27.7335330710363 1324.81823730548,85.7992016612018 27.7976744152081 1505.47832289145,86.0528091275107 27.8595888113312 2917.49554377697,86.3188877262792 27.9239756847371 4074.32153320478,86.6012137246537 27.9916546770744 4879.48557022227))",
+    "compositeReleaseId": "P05023",
+    "diagnosticModeFlag": 0,
+    "frameNumber": 16,
+    "granuleId": "NISAR_L2_UR_GOFF_029_098_A_016_030_4000_SH_20260831T233918_20260831T233952_20260912T233918_20260912T233952_P05023_F_F_J_001",
+    "instrumentName": "L-SAR",
+    "isDithered": "True",
+    "isFullFrame": "True",
+    "isGeocoded": "True",
+    "isMixedMode": "False",
+    "isUrgentObservation": "True",
+    "listOfFrequencies": [
+      "A"
+    ],
+    "lookDirection": "Left",
+    "missionId": "NISAR",
+    "orbitPassDirection": "Ascending",
+    "platformName": "NISAR",
+    "processingCenter": "JPL",
+    "processingDateTime": "2026-09-13T07:31:18",
+    "processingType": "Urgent",
+    "productDoi": "10.5067/NIL2GOFF-P1",
+    "productLevel": "L2",
+    "productSpecificationVersion": "1.5.0",
+    "productType": "GOFF",
+    "productVersion": "1.0.11",
+    "radarBand": "L",
+    "referenceAbsoluteOrbitNumber": 5733,
+    "referenceHasInputDataException": 0,
+    "referenceIsJointObservation": "True",
+    "referenceListOfObservationModes": [
+      "(NOT SPECIFIED)"
+    ],
+    "referencePlannedDatatakeId": [
+      "dtid_2026243233240"
+    ],
+    "referencePlannedObservationId": [
+      "oid_2026243233712"
+    ],
+    "referenceZeroDopplerEndTime": "2026-08-31T23:39:52.999342105",
+    "referenceZeroDopplerStartTime": "2026-08-31T23:39:18.000000000",
+    "secondaryAbsoluteOrbitNumber": 5906,
+    "secondaryHasInputDataException": 0,
+    "secondaryIsJointObservation": "True",
+    "secondaryListOfObservationModes": [
+      "(NOT SPECIFIED)"
+    ],
+    "secondaryPlannedDatatakeId": [
+      "dtid_2026255233240"
+    ],
+    "secondaryPlannedObservationId": [
+      "oid_2026255233712"
+    ],
+    "secondaryZeroDopplerEndTime": "2026-09-12T23:39:52.999342105",
+    "secondaryZeroDopplerStartTime": "2026-09-12T23:39:18.000000000",
+    "staticLayersDataAccess": "https://nisar-services.earthdata.nasa.gov/redirect/NISAR_L2_STATIC/NISAR_L2_UR_GOFF_029_098_A_016_030_4000_SH_20260831T233918_20260831T233952_20260912T233918_20260912T233952_P05023_F_F_J_001.h5",
+    "trackNumber": 98
+  },
+  "processing": "AOI clipping only; source grids, native values, and dtypes preserved",
+  "validity": "Read GeoTIFF internal masks with masked=True; invalid stored values are zero",
+  "limitations": [
+    "Offsets are unfiltered and can contain outliers; quality layers are exported separately.",
+    "The shared quality mask is not resampled or applied to individual offset grids.",
+    "No quality thresholds, velocity conversion, or landslide classification are applied.",
+    "3-D metadata cubes require terrain-height interpolation and are not exported as 2-D rasters."
+  ],
+  "frequencies": {
+    "A": {
+      "bounds_file": "bounds.json",
+      "grids": {
+        "pixelOffsets": {
+          "source_crs": "EPSG:32645",
+          "shape": [
+            872,
+            681
+          ],
+          "transform": [
+            80.0,
+            0.0,
+            313040.0,
+            0.0,
+            -80.0,
+            3143840.0
+          ],
+          "bounds_key": "pixelOffsets",
+          "layers": {
+            "mask": {
+              "file": "offsets_mask.tif",
+              "source_path": "/science/LSAR/GOFF/grids/frequencyA/pixelOffsets/mask",
+              "dtype": "uint32",
+              "attributes": {
+                "_FillValue": 255,
+                "description": "Combination of a water mask, a mask of subswaths of valid samples, and data anomalies in the reference RSLC and the geometrically coregistered secondary RSLC. Each pixel value is encoded as a 32-bit unsigned integer. Bits 0-7 represent subswath encoding, where the most significant digit represents the water flag of that pixel in the reference RSLC, where 1 is water and 0 is non-water; the second most significant digit corresponds to the subswath number of the reference RSLC, and the least significant digit corresponds to the subswath number of the secondary RSLC; a value of 0 in either digit indicates an invalid sample in the corresponding RSLC. Bits 8-15 represent bitwise anomaly flags for the secondary RSLC, and bits 16-23 represent bitwise anomaly flags for the reference RSLC, with each bit corresponding to a specific anomaly condition. A value of 0 in the anomaly bits indicates that no anomaly is detected in the corresponding RSLC. Bits 24-31 are reserved for future use",
+                "disclaimer": "Water Mask for the NASA-ISRO NISAR mission version 0.5, derived through analysis and processing of multiple input datasets, referenced to the WGS84 ellipsoid. Water mask derived at the Jet Propulsion Laboratory, California Institute of Technology, under contract with NASA, using multiple open datasets: JRC Global Surface Water v1.3 (Pekel et al 2016, Nature 540, 418-422,  EC JRC/Google); ESA WorldCover 10 m 2020 ( ESA WorldCover project 2020 / Contains modified Copernicus Sentinel data (2020) processed by ESA WorldCover consortium); OpenStreetMap Water Polygons ( OpenStreetMap contributors, ODbL 1.0); MEaSUREs GIMP Mask v1 (Howat 2017, doi:10.5067/B8X58MQBFUPA; Howat et al 2014). All trademarks and rights remain with their respective owners; NISAR mission organizations assume no liability for use of this product.",
+                "grid_mapping": "projection",
+                "percentage_water": 1.1665875342159255,
+                "valid_min": 0
+              },
+              "valid_pixel_count": 485925,
+              "visualization": {
+                "rendering": "categorical",
+                "interpolation": "nearest"
+              }
+            }
+          },
+          "missing_layers": []
+        },
+        "pixelOffsets/HH/layer1": {
+          "source_crs": "EPSG:32645",
+          "shape": [
+            872,
+            681
+          ],
+          "transform": [
+            80.0,
+            0.0,
+            313040.0,
+            0.0,
+            -80.0,
+            3143840.0
+          ],
+          "bounds_key": "pixelOffsets/HH/layer1",
+          "layers": {
+            "alongTrackOffset": {
+              "file": "HH_layer1_alongTrackOffset.tif",
+              "source_path": "/science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer1/alongTrackOffset",
+              "dtype": "float32",
+              "attributes": {
+                "_FillValue": null,
+                "description": "Raw (unculled, unfiltered) along-track pixel offsets",
+                "grid_mapping": "projection",
+                "max_value": 70.26296997070312,
+                "mean_value": -0.35336172580718994,
+                "min_value": -71.14830780029297,
+                "sample_stddev": 5.235809326171875,
+                "units": "meters"
+              },
+              "valid_pixel_count": 453569,
+              "visualization": {
+                "colormap": "RdBu_r",
+                "min": -0.7469874334335327,
+                "max": 0.7469874334335327
+              }
+            },
+            "slantRangeOffset": {
+              "file": "HH_layer1_slantRangeOffset.tif",
+              "source_path": "/science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer1/slantRangeOffset",
+              "dtype": "float32",
+              "attributes": {
+                "_FillValue": null,
+                "description": "Raw (unculled, unfiltered) slant range pixel offsets",
+                "grid_mapping": "projection",
+                "max_value": 49.41581344604492,
+                "mean_value": 8.138469696044922,
+                "min_value": -49.96541213989258,
+                "sample_stddev": 4.202260494232178,
+                "units": "meters"
+              },
+              "valid_pixel_count": 485925,
+              "visualization": {
+                "colormap": "RdBu_r",
+                "min": -8.977330589294434,
+                "max": 8.977330589294434
+              }
+            },
+            "alongTrackOffsetVariance": {
+              "file": "HH_layer1_alongTrackOffsetVariance.tif",
+              "source_path": "/science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer1/alongTrackOffsetVariance",
+              "dtype": "float32",
+              "attributes": {
+                "_FillValue": null,
+                "description": "Along-track pixel offsets variance",
+                "grid_mapping": "projection",
+                "max_value": 24990030.0,
+                "mean_value": 158.6168670654297,
+                "min_value": 0.0002508459147065878,
+                "sample_stddev": 27416.328125,
+                "units": "meters^2"
+              },
+              "valid_pixel_count": 453569,
+              "visualization": {
+                "colormap": "viridis",
+                "min": 0.0016342034563422204,
+                "max": 0.19595104694366622
+              }
+            },
+            "slantRangeOffsetVariance": {
+              "file": "HH_layer1_slantRangeOffsetVariance.tif",
+              "source_path": "/science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer1/slantRangeOffsetVariance",
+              "dtype": "float32",
+              "attributes": {
+                "_FillValue": null,
+                "description": "Slant range pixel offsets variance",
+                "grid_mapping": "projection",
+                "max_value": 30012772.0,
+                "mean_value": 49.26757049560547,
+                "min_value": 6.547469820361584e-05,
+                "sample_stddev": 13071.4052734375,
+                "units": "meters^2"
+              },
+              "valid_pixel_count": 485925,
+              "visualization": {
+                "colormap": "viridis",
+                "min": 0.0006930721690878272,
+                "max": 0.11958086937665947
+              }
+            },
+            "crossOffsetVariance": {
+              "file": "HH_layer1_crossOffsetVariance.tif",
+              "source_path": "/science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer1/crossOffsetVariance",
+              "dtype": "float32",
+              "attributes": {
+                "_FillValue": null,
+                "description": "Off-diagonal term of the pixel offsets covariance matrix",
+                "grid_mapping": "projection",
+                "max_value": 1344990.375,
+                "mean_value": 0.30627623200416565,
+                "min_value": -936062.0,
+                "sample_stddev": 1248.765869140625,
+                "units": "meters^2"
+              },
+              "valid_pixel_count": 453569,
+              "visualization": {
+                "colormap": "RdBu_r",
+                "min": -0.0067793398164212705,
+                "max": 0.0067793398164212705
+              }
+            },
+            "correlationSurfacePeak": {
+              "file": "HH_layer1_correlationSurfacePeak.tif",
+              "source_path": "/science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer1/correlationSurfacePeak",
+              "dtype": "float32",
+              "attributes": {
+                "_FillValue": null,
+                "description": "Normalized correlation surface peak",
+                "grid_mapping": "projection",
+                "max_value": 0.9936214089393616,
+                "mean_value": 0.6089349985122681,
+                "min_value": 0.0,
+                "sample_stddev": 0.22037191689014435,
+                "units": "1"
+              },
+              "valid_pixel_count": 485925,
+              "visualization": {
+                "colormap": "viridis",
+                "min": 0,
+                "max": 1
+              }
+            },
+            "snr": {
+              "file": "HH_layer1_snr.tif",
+              "source_path": "/science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer1/snr",
+              "dtype": "float32",
+              "attributes": {
+                "_FillValue": null,
+                "description": "Pixel offsets signal-to-noise ratio",
+                "grid_mapping": "projection",
+                "max_value": 1300.522216796875,
+                "mean_value": 32.38945388793945,
+                "min_value": 5.749668162025046e-06,
+                "sample_stddev": 45.79721450805664,
+                "units": "1"
+              },
+              "valid_pixel_count": 485925,
+              "visualization": {
+                "colormap": "viridis",
+                "min": 3.421553783416748,
+                "max": 113.0099160766603
+              }
+            }
+          },
+          "missing_layers": [],
+          "polarization": "HH",
+          "offset_layer": "layer1"
+        },
+        "pixelOffsets/HH/layer2": {
+          "source_crs": "EPSG:32645",
+          "shape": [
+            872,
+            681
+          ],
+          "transform": [
+            80.0,
+            0.0,
+            313040.0,
+            0.0,
+            -80.0,
+            3143840.0
+          ],
+          "bounds_key": "pixelOffsets/HH/layer2",
+          "layers": {
+            "alongTrackOffset": {
+              "file": "HH_layer2_alongTrackOffset.tif",
+              "source_path": "/science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer2/alongTrackOffset",
+              "dtype": "float32",
+              "attributes": {
+                "_FillValue": null,
+                "description": "Raw (unculled, unfiltered) along-track pixel offsets",
+                "grid_mapping": "projection",
+                "max_value": 70.3668441772461,
+                "mean_value": -0.3508259654045105,
+                "min_value": -71.15008544921875,
+                "sample_stddev": 4.322479248046875,
+                "units": "meters"
+              },
+              "valid_pixel_count": 453569,
+              "visualization": {
+                "colormap": "RdBu_r",
+                "min": -0.5550454044342041,
+                "max": 0.5550454044342041
+              }
+            },
+            "slantRangeOffset": {
+              "file": "HH_layer2_slantRangeOffset.tif",
+              "source_path": "/science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer2/slantRangeOffset",
+              "dtype": "float32",
+              "attributes": {
+                "_FillValue": null,
+                "description": "Raw (unculled, unfiltered) slant range pixel offsets",
+                "grid_mapping": "projection",
+                "max_value": 49.65031433105469,
+                "mean_value": 8.262969017028809,
+                "min_value": -49.96541213989258,
+                "sample_stddev": 3.4964540004730225,
+                "units": "meters"
+              },
+              "valid_pixel_count": 485925,
+              "visualization": {
+                "colormap": "RdBu_r",
+                "min": -8.846519470214844,
+                "max": 8.846519470214844
+              }
+            },
+            "alongTrackOffsetVariance": {
+              "file": "HH_layer2_alongTrackOffsetVariance.tif",
+              "source_path": "/science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer2/alongTrackOffsetVariance",
+              "dtype": "float32",
+              "attributes": {
+                "_FillValue": null,
+                "description": "Along-track pixel offsets variance",
+                "grid_mapping": "projection",
+                "max_value": 381615840.0,
+                "mean_value": 2977.954833984375,
+                "min_value": 8.756454917602241e-05,
+                "sample_stddev": 434080.4375,
+                "units": "meters^2"
+              },
+              "valid_pixel_count": 453569,
+              "visualization": {
+                "colormap": "viridis",
+                "min": 0.00044062950066290794,
+                "max": 0.018607469722628597
+              }
+            },
+            "slantRangeOffsetVariance": {
+              "file": "HH_layer2_slantRangeOffsetVariance.tif",
+              "source_path": "/science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer2/slantRangeOffsetVariance",
+              "dtype": "float32",
+              "attributes": {
+                "_FillValue": null,
+                "description": "Slant range pixel offsets variance",
+                "grid_mapping": "projection",
+                "max_value": 42349704.0,
+                "mean_value": 105.06004333496094,
+                "min_value": 2.6921077733277343e-05,
+                "sample_stddev": 26462.6796875,
+                "units": "meters^2"
+              },
+              "valid_pixel_count": 485925,
+              "visualization": {
+                "colormap": "viridis",
+                "min": 0.00018711815122514962,
+                "max": 0.010398971885442782
+              }
+            },
+            "crossOffsetVariance": {
+              "file": "HH_layer2_crossOffsetVariance.tif",
+              "source_path": "/science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer2/crossOffsetVariance",
+              "dtype": "float32",
+              "attributes": {
+                "_FillValue": null,
+                "description": "Off-diagonal term of the pixel offsets covariance matrix",
+                "grid_mapping": "projection",
+                "max_value": 8722714.0,
+                "mean_value": -19.10243034362793,
+                "min_value": -7307907.0,
+                "sample_stddev": 11869.431640625,
+                "units": "meters^2"
+              },
+              "valid_pixel_count": 453569,
+              "visualization": {
+                "colormap": "RdBu_r",
+                "min": -0.0007347656600177288,
+                "max": 0.0007347656600177288
+              }
+            },
+            "correlationSurfacePeak": {
+              "file": "HH_layer2_correlationSurfacePeak.tif",
+              "source_path": "/science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer2/correlationSurfacePeak",
+              "dtype": "float32",
+              "attributes": {
+                "_FillValue": null,
+                "description": "Normalized correlation surface peak",
+                "grid_mapping": "projection",
+                "max_value": 0.9883707761764526,
+                "mean_value": 0.6680957078933716,
+                "min_value": 0.0,
+                "sample_stddev": 0.1970270574092865,
+                "units": "1"
+              },
+              "valid_pixel_count": 485925,
+              "visualization": {
+                "colormap": "viridis",
+                "min": 0,
+                "max": 1
+              }
+            },
+            "snr": {
+              "file": "HH_layer2_snr.tif",
+              "source_path": "/science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer2/snr",
+              "dtype": "float32",
+              "attributes": {
+                "_FillValue": null,
+                "description": "Pixel offsets signal-to-noise ratio",
+                "grid_mapping": "projection",
+                "max_value": 1729.0347900390625,
+                "mean_value": 19.46147918701172,
+                "min_value": 3.5618068068288267e-06,
+                "sample_stddev": 31.501113891601562,
+                "units": "1"
+              },
+              "valid_pixel_count": 485925,
+              "visualization": {
+                "colormap": "viridis",
+                "min": 2.792077646255493,
+                "max": 61.18771148681646
+              }
+            }
+          },
+          "missing_layers": [],
+          "polarization": "HH",
+          "offset_layer": "layer2"
+        }
+      },
+      "missing_grids": [
+        "pixelOffsets/HH/layer3"
+      ],
+      "missing_quality_layers": [],
+      "omitted_metadata_cubes": [
+        "/science/LSAR/GOFF/metadata/radarGrid/alongTrackUnitVectorX",
+        "/science/LSAR/GOFF/metadata/radarGrid/alongTrackUnitVectorY",
+        "/science/LSAR/GOFF/metadata/radarGrid/elevationAngle",
+        "/science/LSAR/GOFF/metadata/radarGrid/groundTrackVelocity",
+        "/science/LSAR/GOFF/metadata/radarGrid/incidenceAngle",
+        "/science/LSAR/GOFF/metadata/radarGrid/losUnitVectorX",
+        "/science/LSAR/GOFF/metadata/radarGrid/losUnitVectorY",
+        "/science/LSAR/GOFF/metadata/radarGrid/parallelBaseline",
+        "/science/LSAR/GOFF/metadata/radarGrid/perpendicularBaseline",
+        "/science/LSAR/GOFF/metadata/radarGrid/referenceSlantRange",
+        "/science/LSAR/GOFF/metadata/radarGrid/referenceZeroDopplerAzimuthTime",
+        "/science/LSAR/GOFF/metadata/radarGrid/secondarySlantRange",
+        "/science/LSAR/GOFF/metadata/radarGrid/secondaryZeroDopplerAzimuthTime"
+      ]
+    }
+  }
+}

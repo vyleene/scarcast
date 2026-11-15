@@ -2,6 +2,7 @@
 from pathlib import Path
 from contextlib import contextmanager
 from datetime import date
+import re
 
 import earthaccess
 import asf_search as asf
@@ -16,6 +17,7 @@ class NISARStream:
         self.aoi = None
         self.processing_level = "GCOV"
         self.production_configuration = "PR"
+        self.crid = None
         self.flight_direction = None
         self.start_date = None
         self.end_date = None
@@ -63,6 +65,24 @@ class NISARStream:
 
         self.production_configuration = config
 
+        return self
+
+
+    def setCRID(self, crid):
+        """Filter by an exact Composite Release ID, or pass None to clear it."""
+        if crid is None:
+            self.crid = None
+            return self
+
+        if not isinstance(crid, str):
+            raise ValueError("CRID must be a letter followed by five digits, e.g. X05016.")
+
+        crid = crid.strip().upper()
+
+        if re.fullmatch(r"[A-Z][0-9]{5}", crid) is None:
+            raise ValueError("CRID must be a letter followed by five digits, e.g. X05016.")
+
+        self.crid = crid
         return self
 
 
@@ -144,6 +164,13 @@ class NISARStream:
                 "Set a date range using setDateRange() first."
             )
 
+        search_options = {}
+
+        if self.crid is not None:
+            # ASF exposes CRID through granule-name wildcards, not a CRID keyword.
+            # Match the complete token and filter before maxResults is applied.
+            search_options["granule_list"] = [f"NISAR_*_{self.crid}_*"]
+
         results = asf.search(
             dataset=[self.dataset],
             processingLevel=[self.processing_level],
@@ -154,7 +181,8 @@ class NISARStream:
             intersectsWith=self.aoi,
             start=self.start_date,
             end=self.end_date,
-            maxResults=self.max_results
+            maxResults=self.max_results,
+            **search_options
         )
 
         urls = results.find_urls(
