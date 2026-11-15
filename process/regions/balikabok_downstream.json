@@ -1,0 +1,12 @@
+{
+  "location": "balikabok_downstream",
+  "description": "Exploratory study rectangle covering Mt. Balikabok and downstream portions of Dinalupihan and Hermosa. Not a delineated watershed or observed flood boundary.",
+  "aoi": [[120.34, 14.80], [120.57, 14.80], [120.57, 14.97], [120.34, 14.97], [120.34, 14.80]],
+  "start_date": "2026-08-01",
+  "end_date": "2026-09-28",
+  "track": 140,
+  "frame": 9,
+  "flight_direction": "Ascending",
+  "processing_configuration": "P05023",
+  "coherence_threshold": 0.3
+}

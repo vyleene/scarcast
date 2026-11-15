@@ -1,0 +1,133 @@
+{
+  "generated_at": "2026-11-14T23:30:40.361447+00:00",
+  "boundary_source": null,
+  "location_sources": [
+    "https://www.philatlas.com/luzon/r03/bataan/dinalupihan/pita.html",
+    "https://www.philatlas.com/luzon/r03/bataan/dinalupihan/dalao.html",
+    "https://www.philatlas.com/luzon/r03/bataan/dinalupihan/pagalanggang.html"
+  ],
+  "place_geometry": "Point",
+  "optical_interval": [
+    "2026-04-06",
+    "2026-09-13"
+  ],
+  "comparisons": [
+    {
+      "start": "2026-08-10",
+      "end": "2026-08-22",
+      "screen_file": "nisar-screen-2026-08-10_2026-08-22.geojson",
+      "zones": {
+        "mountain": {
+          "radar_candidate_ha": 0.0,
+          "optical_evaluable_candidate_ha": 0.0,
+          "optical_supported_ha": 0.0,
+          "candidate_near_drainage_ha": 0.0,
+          "radar_valid_ha": 6497.24
+        },
+        "downstream": {
+          "radar_candidate_ha": 1237.58,
+          "optical_evaluable_candidate_ha": 823.67,
+          "optical_supported_ha": 67.36,
+          "candidate_near_drainage_ha": 484.39,
+          "radar_valid_ha": 40103.21
+        },
+        "study": {
+          "radar_candidate_ha": 1237.58,
+          "optical_evaluable_candidate_ha": 823.67,
+          "optical_supported_ha": 67.36,
+          "candidate_near_drainage_ha": 484.39,
+          "radar_valid_ha": 46600.45
+        }
+      },
+      "places": {}
+    },
+    {
+      "start": "2026-08-22",
+      "end": "2026-09-03",
+      "screen_file": "nisar-screen-2026-08-22_2026-09-03.geojson",
+      "zones": {
+        "mountain": {
+          "radar_candidate_ha": 52.82,
+          "optical_evaluable_candidate_ha": 43.08,
+          "optical_supported_ha": 40.95,
+          "candidate_near_drainage_ha": 19.95,
+          "radar_valid_ha": 6497.24
+        },
+        "downstream": {
+          "radar_candidate_ha": 643.69,
+          "optical_evaluable_candidate_ha": 258.97,
+          "optical_supported_ha": 61.15,
+          "candidate_near_drainage_ha": 218.35,
+          "radar_valid_ha": 40103.2
+        },
+        "study": {
+          "radar_candidate_ha": 696.51,
+          "optical_evaluable_candidate_ha": 302.05,
+          "optical_supported_ha": 102.1,
+          "candidate_near_drainage_ha": 238.3,
+          "radar_valid_ha": 46600.44
+        }
+      },
+      "places": {}
+    },
+    {
+      "start": "2026-09-03",
+      "end": "2026-09-15",
+      "screen_file": "nisar-screen-2026-09-03_2026-09-15.geojson",
+      "zones": {
+        "mountain": {
+          "radar_candidate_ha": 1.61,
+          "optical_evaluable_candidate_ha": 0.44,
+          "optical_supported_ha": 0.0,
+          "candidate_near_drainage_ha": 0.0,
+          "radar_valid_ha": 6497.26
+        },
+        "downstream": {
+          "radar_candidate_ha": 1081.69,
+          "optical_evaluable_candidate_ha": 607.36,
+          "optical_supported_ha": 75.1,
+          "candidate_near_drainage_ha": 400.13,
+          "radar_valid_ha": 40103.19
+        },
+        "study": {
+          "radar_candidate_ha": 1083.3,
+          "optical_evaluable_candidate_ha": 607.8,
+          "optical_supported_ha": 75.1,
+          "candidate_near_drainage_ha": 400.13,
+          "radar_valid_ha": 46600.45
+        }
+      },
+      "places": {}
+    },
+    {
+      "start": "2026-09-15",
+      "end": "2026-09-27",
+      "screen_file": "nisar-screen-2026-09-15_2026-09-27.geojson",
+      "zones": {
+        "mountain": {
+          "radar_candidate_ha": 1.72,
+          "optical_evaluable_candidate_ha": 0.0,
+          "optical_supported_ha": 0.0,
+          "candidate_near_drainage_ha": 0.0,
+          "radar_valid_ha": 6497.26
+        },
+        "downstream": {
+          "radar_candidate_ha": 119.4,
+          "optical_evaluable_candidate_ha": 72.51,
+          "optical_supported_ha": 7.79,
+          "candidate_near_drainage_ha": 43.33,
+          "radar_valid_ha": 40103.18
+        },
+        "study": {
+          "radar_candidate_ha": 121.12,
+          "optical_evaluable_candidate_ha": 72.51,
+          "optical_supported_ha": 7.79,
+          "candidate_near_drainage_ha": 43.33,
+          "radar_valid_ha": 46600.44
+        }
+      },
+      "places": {}
+    }
+  ],
+  "method": "Existing NISAR >=3 dB hotspot screen intersected with shared-clear HLS April 6\u2013September 13 NDVI decrease >=0.20. Optical support is spatial coincidence across a longer interval, not proof of landslide or event timing. Drainage proximity uses a 100 m buffer of historical terrain-derived drainage, not a modeled debris route. Approximate barangay reference points are sourced from PhilAtlas and have no area or affected-person statistics. Impact reports come independently from PhilSA. The PSA boundary endpoint timed out; no administrative polygons or flood extents are inferred."
+}

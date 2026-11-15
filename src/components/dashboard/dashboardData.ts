@@ -1,10 +1,12 @@
 import type { GCOVAcquisition } from '../../services/processGCOVData'
 import type { GUNWAcquisition, GUNWProcessOptions } from '../../services/gunwTypes'
 import { dateFor, dateFormatter, shortDateFormatter } from './dashboardUtils'
+import { backscatterChangeManifest } from '../../services/processBackscatterChange'
+import type { BackscatterChangeAcquisition } from '../../services/processBackscatterChange'
 
-export type MapDataMode = 'backscatter' | 'phase' | 'coherence' | 'coherenceChange'
+export type MapDataMode = 'backscatter' | 'backscatterChange' | 'phase' | 'coherence' | 'coherenceChange'
 export const dataModeLabels: Record<MapDataMode, string> = {
-  backscatter: 'Backscatter', phase: 'Unwrapped phase', coherence: 'Coherence', coherenceChange: 'Coherence change',
+  backscatter: 'Backscatter', backscatterChange: 'Surface change heatmap', phase: 'Unwrapped phase', coherence: 'Coherence', coherenceChange: 'Coherence change',
 }
 export interface TimelineItem {
   key: string
@@ -15,15 +17,16 @@ export interface TimelineItem {
   baselineLabel?: string
 }
 interface BackscatterObservation extends TimelineItem { kind: 'backscatter'; acquisition: GCOVAcquisition }
+export interface BackscatterChangeObservation extends TimelineItem { kind: 'backscatterChange'; acquisition: BackscatterChangeAcquisition }
 export interface GUNWObservation extends TimelineItem {
   kind: 'gunw'
-  mode: Exclude<MapDataMode, 'backscatter'>
+  mode: 'phase' | 'coherence' | 'coherenceChange'
   acquisition: GUNWAcquisition
   /** Earlier baseline; acquisition is always the later pair in change mode. */
   baseline?: GUNWAcquisition
   options: GUNWProcessOptions
 }
-export type DashboardObservation = BackscatterObservation | GUNWObservation
+export type DashboardObservation = BackscatterObservation | BackscatterChangeObservation | GUNWObservation
 
 export function pairLabel(pair: GUNWAcquisition, short = false) {
   const formatter = short ? shortDateFormatter : dateFormatter
@@ -43,6 +46,15 @@ export function dashboardObservations(backscatter: readonly GCOVAcquisition[], p
     kind: 'backscatter', key: acquisition.id, acquisition, startAt: acquisition.acquiredAt,
     label: dateFormatter.format(dateFor(acquisition.acquiredAt)), shortLabel: shortDateFormatter.format(dateFor(acquisition.acquiredAt)),
   }))
+  if (mode === 'backscatterChange') {
+    const available = new Set(backscatter.map(item => item.id))
+    return (backscatterChangeManifest[backscatter[0]?.location] ?? []).filter(item => available.has(item.metadata.before_id) && available.has(item.metadata.after_id)).map(acquisition => {
+      const startAt = acquisition.metadata.start_at, endAt = acquisition.metadata.end_at
+      return { kind: 'backscatterChange', acquisition, key: `backscatterChange/${acquisition.location}/${acquisition.id}`, startAt, endAt,
+        label: `${dateFormatter.format(dateFor(startAt))} – ${dateFormatter.format(dateFor(endAt))}`,
+        shortLabel: `${shortDateFormatter.format(dateFor(startAt))} – ${shortDateFormatter.format(dateFor(endAt))}` }
+    })
+  }
   // A shared stretch makes colours comparable across pairs (phase itself remains unreferenced).
   const phaseLimit = Math.max(1, ...pairs.flatMap(pair => Object.values(pair.layers)
     .filter(layer => layer.name === 'unwrappedPhase').flatMap(layer => [Math.abs(layer.metadata.visualization?.min ?? 0), Math.abs(layer.metadata.visualization?.max ?? 0)])))

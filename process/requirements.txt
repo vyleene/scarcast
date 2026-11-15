@@ -4,3 +4,5 @@ h5py
 numpy
 python-dotenv
 rasterio
+requests
+shapely

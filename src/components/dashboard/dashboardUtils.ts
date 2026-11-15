@@ -17,7 +17,9 @@ export const locations: [string, readonly { bounds: LatLngBoundsLiteral; acquire
   ] as [string, readonly { bounds: LatLngBoundsLiteral; acquiredAt: string }[]]).filter(([, observations]) => observations.length > 0)
 export const dateFormatter = new Intl.DateTimeFormat('en-GB', { day: '2-digit', month: 'short', year: 'numeric', timeZone: 'UTC' })
 export const shortDateFormatter = new Intl.DateTimeFormat('en-GB', { day: '2-digit', month: 'short', timeZone: 'UTC' })
-export const nameFor = (slug: string) => slug.split('_').map(word => word[0].toUpperCase() + word.slice(1)).join(' ')
+export const nameFor = (slug: string) => slug === 'balikabok_downstream'
+  ? 'Mount Balikabok and downstream area'
+  : slug.split('_').map(word => word[0].toUpperCase() + word.slice(1)).join(' ')
 export const dateFor = (date: string) => new Date(`${date.slice(0, 19)}Z`)
 export const centerFor = (bounds: LatLngBoundsLiteral): LatLngTuple => [
   (bounds[0][0] + bounds[1][0]) / 2,

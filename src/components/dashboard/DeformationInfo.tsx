@@ -1,14 +1,25 @@
 import { dataModeLabels } from './dashboardData'
-import type { GUNWObservation, MapDataMode } from './dashboardData'
+import type { GUNWObservation, BackscatterChangeObservation, MapDataMode } from './dashboardData'
+import BackscatterChangeInfo from './BackscatterChangeInfo'
 import type { RasterState } from './dashboardUtils'
 
-export default function DeformationInfo({ observation, mode, modes, status, onModeChange }: {
-  observation?: GUNWObservation
+export default function DeformationInfo({ observation: selectedObservation, mode, modes, status, onModeChange }: {
+  observation?: GUNWObservation | BackscatterChangeObservation
   mode: MapDataMode
   modes: readonly MapDataMode[]
   status: RasterState | null
   onModeChange: (mode: MapDataMode) => void
 }) {
+  const observation = selectedObservation?.kind === 'gunw' ? selectedObservation : undefined
+  const controls = <div className="atlas-gunw-views" role="group" aria-label="Radar view">
+    {modes.filter(value => value !== 'backscatter').map(value => <button key={value} aria-pressed={mode === value}
+      onClick={() => onModeChange(value)}>{dataModeLabels[value]}</button>)}
+  </div>
+  if (mode === 'backscatterChange') return <>
+    <div className="atlas-section-heading"><h2>Surface change heatmap</h2></div>
+    {controls}
+    <BackscatterChangeInfo observation={selectedObservation?.kind === 'backscatterChange' ? selectedObservation : undefined} />
+  </>
   const data = status?.status === 'ready' ? status.data : undefined
   const descriptor = observation && observation.acquisition.layers[observation.options.layer!]
   const phase = mode === 'phase'
@@ -19,10 +30,7 @@ export default function DeformationInfo({ observation, mode, modes, status, onMo
   return (
     <>
       <div className="atlas-section-heading"><span className="atlas-section-number">02</span><div><p className="atlas-eyebrow">Phase &amp; coherence</p><h2>Another view of change.</h2></div></div>
-      <div className="atlas-gunw-views" role="group" aria-label="GUNW view">
-        {modes.filter(value => value !== 'backscatter').map(value => <button key={value} aria-pressed={mode === value}
-          onClick={() => onModeChange(value)}>{dataModeLabels[value]}</button>)}
-      </div>
+      {controls}
       {!observation || !descriptor ? <p className="atlas-body-copy">No GUNW observations are available for this view.</p> : <>
         <p className="atlas-body-copy">{phase
           ? 'Unwrapped phase captures differences in radar phase between two acquisitions. Only pixels passing the exported phase-quality mask are shown.'

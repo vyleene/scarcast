@@ -1,0 +1,920 @@
+{
+  "queried_at": "2026-11-14T22:51:36.463400+00:00",
+  "bbox": [
+    120.34,
+    14.8,
+    120.57,
+    14.97
+  ],
+  "NASADEM_HGT": [
+    {
+      "id": "NASADEM_HGT_n14e120",
+      "date": "2000-02-11T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G2816859532-LPCLOUD",
+      "links": [
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/NASADEM_HGT.001/NASADEM_HGT_n14e120/NASADEM_HGT_n14e120.zip"
+      ]
+    }
+  ],
+  "HLSS30": [
+    {
+      "id": "HLS.S30.T51PTS.2026228T022131.v2.0",
+      "date": "2026-08-16T02:33:52.766Z",
+      "cloud_cover": "88",
+      "concept_id": "G4281955236-LPCLOUD",
+      "links": [
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.VZA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.B06.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.VAA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.B03.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.B11.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.SAA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.B01.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.Fmask.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.B08.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.B09.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.B04.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.B8A.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.B07.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.B12.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.B05.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.B10.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.B02.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.SZA.tif"
+      ]
+    },
+    {
+      "id": "HLS.S30.T50PRB.2026228T022131.v2.0",
+      "date": "2026-08-16T02:33:54.475Z",
+      "cloud_cover": "89",
+      "concept_id": "G4281951436-LPCLOUD",
+      "links": [
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026228T022131.v2.0/HLS.S30.T50PRB.2026228T022131.v2.0.Fmask.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026228T022131.v2.0/HLS.S30.T50PRB.2026228T022131.v2.0.B08.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026228T022131.v2.0/HLS.S30.T50PRB.2026228T022131.v2.0.B10.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026228T022131.v2.0/HLS.S30.T50PRB.2026228T022131.v2.0.B02.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026228T022131.v2.0/HLS.S30.T50PRB.2026228T022131.v2.0.B8A.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026228T022131.v2.0/HLS.S30.T50PRB.2026228T022131.v2.0.B12.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026228T022131.v2.0/HLS.S30.T50PRB.2026228T022131.v2.0.SZA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026228T022131.v2.0/HLS.S30.T50PRB.2026228T022131.v2.0.B11.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026228T022131.v2.0/HLS.S30.T50PRB.2026228T022131.v2.0.B03.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026228T022131.v2.0/HLS.S30.T50PRB.2026228T022131.v2.0.B06.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026228T022131.v2.0/HLS.S30.T50PRB.2026228T022131.v2.0.B07.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026228T022131.v2.0/HLS.S30.T50PRB.2026228T022131.v2.0.SAA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026228T022131.v2.0/HLS.S30.T50PRB.2026228T022131.v2.0.B04.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026228T022131.v2.0/HLS.S30.T50PRB.2026228T022131.v2.0.B09.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026228T022131.v2.0/HLS.S30.T50PRB.2026228T022131.v2.0.VZA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026228T022131.v2.0/HLS.S30.T50PRB.2026228T022131.v2.0.B05.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026228T022131.v2.0/HLS.S30.T50PRB.2026228T022131.v2.0.VAA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026228T022131.v2.0/HLS.S30.T50PRB.2026228T022131.v2.0.B01.tif"
+      ]
+    },
+    {
+      "id": "HLS.S30.T51PTS.2026256T021531.v2.0",
+      "date": "2026-09-13T02:33:35.500Z",
+      "cloud_cover": "26",
+      "concept_id": "G4311529695-LPCLOUD",
+      "links": [
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.B12.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.B08.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.B09.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.B03.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.SZA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.B06.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.B04.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.VZA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.B07.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.VAA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.SAA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.B8A.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.B01.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.B11.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.B05.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.Fmask.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.B02.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.B10.tif"
+      ]
+    },
+    {
+      "id": "HLS.S30.T50PRB.2026256T021531.v2.0",
+      "date": "2026-09-13T02:33:37.214Z",
+      "cloud_cover": "18",
+      "concept_id": "G4311510801-LPCLOUD",
+      "links": [
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026256T021531.v2.0/HLS.S30.T50PRB.2026256T021531.v2.0.VAA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026256T021531.v2.0/HLS.S30.T50PRB.2026256T021531.v2.0.B8A.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026256T021531.v2.0/HLS.S30.T50PRB.2026256T021531.v2.0.B12.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026256T021531.v2.0/HLS.S30.T50PRB.2026256T021531.v2.0.Fmask.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026256T021531.v2.0/HLS.S30.T50PRB.2026256T021531.v2.0.SZA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026256T021531.v2.0/HLS.S30.T50PRB.2026256T021531.v2.0.B07.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026256T021531.v2.0/HLS.S30.T50PRB.2026256T021531.v2.0.B11.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026256T021531.v2.0/HLS.S30.T50PRB.2026256T021531.v2.0.B05.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026256T021531.v2.0/HLS.S30.T50PRB.2026256T021531.v2.0.B08.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026256T021531.v2.0/HLS.S30.T50PRB.2026256T021531.v2.0.B01.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026256T021531.v2.0/HLS.S30.T50PRB.2026256T021531.v2.0.B02.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026256T021531.v2.0/HLS.S30.T50PRB.2026256T021531.v2.0.B03.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026256T021531.v2.0/HLS.S30.T50PRB.2026256T021531.v2.0.SAA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026256T021531.v2.0/HLS.S30.T50PRB.2026256T021531.v2.0.B10.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026256T021531.v2.0/HLS.S30.T50PRB.2026256T021531.v2.0.B06.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026256T021531.v2.0/HLS.S30.T50PRB.2026256T021531.v2.0.B04.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026256T021531.v2.0/HLS.S30.T50PRB.2026256T021531.v2.0.B09.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026256T021531.v2.0/HLS.S30.T50PRB.2026256T021531.v2.0.VZA.tif"
+      ]
+    },
+    {
+      "id": "HLS.S30.T51PTS.2026261T021559.v2.0",
+      "date": "2026-09-18T02:33:35.803Z",
+      "cloud_cover": "55",
+      "concept_id": "G4317093415-LPCLOUD",
+      "links": [
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026261T021559.v2.0/HLS.S30.T51PTS.2026261T021559.v2.0.B09.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026261T021559.v2.0/HLS.S30.T51PTS.2026261T021559.v2.0.B05.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026261T021559.v2.0/HLS.S30.T51PTS.2026261T021559.v2.0.B8A.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026261T021559.v2.0/HLS.S30.T51PTS.2026261T021559.v2.0.B04.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026261T021559.v2.0/HLS.S30.T51PTS.2026261T021559.v2.0.B03.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026261T021559.v2.0/HLS.S30.T51PTS.2026261T021559.v2.0.VZA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026261T021559.v2.0/HLS.S30.T51PTS.2026261T021559.v2.0.B06.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026261T021559.v2.0/HLS.S30.T51PTS.2026261T021559.v2.0.B08.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026261T021559.v2.0/HLS.S30.T51PTS.2026261T021559.v2.0.B07.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026261T021559.v2.0/HLS.S30.T51PTS.2026261T021559.v2.0.B10.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026261T021559.v2.0/HLS.S30.T51PTS.2026261T021559.v2.0.B02.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026261T021559.v2.0/HLS.S30.T51PTS.2026261T021559.v2.0.B11.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026261T021559.v2.0/HLS.S30.T51PTS.2026261T021559.v2.0.B12.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026261T021559.v2.0/HLS.S30.T51PTS.2026261T021559.v2.0.B01.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026261T021559.v2.0/HLS.S30.T51PTS.2026261T021559.v2.0.SAA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026261T021559.v2.0/HLS.S30.T51PTS.2026261T021559.v2.0.Fmask.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026261T021559.v2.0/HLS.S30.T51PTS.2026261T021559.v2.0.VAA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026261T021559.v2.0/HLS.S30.T51PTS.2026261T021559.v2.0.SZA.tif"
+      ]
+    },
+    {
+      "id": "HLS.S30.T50PRB.2026261T021559.v2.0",
+      "date": "2026-09-18T02:33:37.514Z",
+      "cloud_cover": "43",
+      "concept_id": "G4317097025-LPCLOUD",
+      "links": [
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026261T021559.v2.0/HLS.S30.T50PRB.2026261T021559.v2.0.B01.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026261T021559.v2.0/HLS.S30.T50PRB.2026261T021559.v2.0.B03.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026261T021559.v2.0/HLS.S30.T50PRB.2026261T021559.v2.0.B07.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026261T021559.v2.0/HLS.S30.T50PRB.2026261T021559.v2.0.B12.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026261T021559.v2.0/HLS.S30.T50PRB.2026261T021559.v2.0.B11.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026261T021559.v2.0/HLS.S30.T50PRB.2026261T021559.v2.0.B02.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026261T021559.v2.0/HLS.S30.T50PRB.2026261T021559.v2.0.Fmask.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026261T021559.v2.0/HLS.S30.T50PRB.2026261T021559.v2.0.B10.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026261T021559.v2.0/HLS.S30.T50PRB.2026261T021559.v2.0.B09.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026261T021559.v2.0/HLS.S30.T50PRB.2026261T021559.v2.0.B06.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026261T021559.v2.0/HLS.S30.T50PRB.2026261T021559.v2.0.B8A.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026261T021559.v2.0/HLS.S30.T50PRB.2026261T021559.v2.0.B08.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026261T021559.v2.0/HLS.S30.T50PRB.2026261T021559.v2.0.VZA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026261T021559.v2.0/HLS.S30.T50PRB.2026261T021559.v2.0.SAA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026261T021559.v2.0/HLS.S30.T50PRB.2026261T021559.v2.0.B05.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026261T021559.v2.0/HLS.S30.T50PRB.2026261T021559.v2.0.VAA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026261T021559.v2.0/HLS.S30.T50PRB.2026261T021559.v2.0.SZA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026261T021559.v2.0/HLS.S30.T50PRB.2026261T021559.v2.0.B04.tif"
+      ]
+    },
+    {
+      "id": "HLS.S30.T51PTS.2026266T021531.v2.0",
+      "date": "2026-09-23T02:33:37.670Z",
+      "cloud_cover": "48",
+      "concept_id": "G4323419287-LPCLOUD",
+      "links": [
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026266T021531.v2.0/HLS.S30.T51PTS.2026266T021531.v2.0.VZA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026266T021531.v2.0/HLS.S30.T51PTS.2026266T021531.v2.0.Fmask.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026266T021531.v2.0/HLS.S30.T51PTS.2026266T021531.v2.0.B08.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026266T021531.v2.0/HLS.S30.T51PTS.2026266T021531.v2.0.VAA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026266T021531.v2.0/HLS.S30.T51PTS.2026266T021531.v2.0.B07.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026266T021531.v2.0/HLS.S30.T51PTS.2026266T021531.v2.0.B05.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026266T021531.v2.0/HLS.S30.T51PTS.2026266T021531.v2.0.B03.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026266T021531.v2.0/HLS.S30.T51PTS.2026266T021531.v2.0.B8A.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026266T021531.v2.0/HLS.S30.T51PTS.2026266T021531.v2.0.B09.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026266T021531.v2.0/HLS.S30.T51PTS.2026266T021531.v2.0.B12.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026266T021531.v2.0/HLS.S30.T51PTS.2026266T021531.v2.0.B04.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026266T021531.v2.0/HLS.S30.T51PTS.2026266T021531.v2.0.B06.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026266T021531.v2.0/HLS.S30.T51PTS.2026266T021531.v2.0.SAA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026266T021531.v2.0/HLS.S30.T51PTS.2026266T021531.v2.0.B01.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026266T021531.v2.0/HLS.S30.T51PTS.2026266T021531.v2.0.B02.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026266T021531.v2.0/HLS.S30.T51PTS.2026266T021531.v2.0.B11.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026266T021531.v2.0/HLS.S30.T51PTS.2026266T021531.v2.0.SZA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026266T021531.v2.0/HLS.S30.T51PTS.2026266T021531.v2.0.B10.tif"
+      ]
+    },
+    {
+      "id": "HLS.S30.T50PRB.2026266T021531.v2.0",
+      "date": "2026-09-23T02:33:39.387Z",
+      "cloud_cover": "42",
+      "concept_id": "G4325212816-LPCLOUD",
+      "links": [
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026266T021531.v2.0/HLS.S30.T50PRB.2026266T021531.v2.0.B01.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026266T021531.v2.0/HLS.S30.T50PRB.2026266T021531.v2.0.B07.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026266T021531.v2.0/HLS.S30.T50PRB.2026266T021531.v2.0.B11.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026266T021531.v2.0/HLS.S30.T50PRB.2026266T021531.v2.0.SAA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026266T021531.v2.0/HLS.S30.T50PRB.2026266T021531.v2.0.Fmask.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026266T021531.v2.0/HLS.S30.T50PRB.2026266T021531.v2.0.VAA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026266T021531.v2.0/HLS.S30.T50PRB.2026266T021531.v2.0.VZA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026266T021531.v2.0/HLS.S30.T50PRB.2026266T021531.v2.0.B12.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026266T021531.v2.0/HLS.S30.T50PRB.2026266T021531.v2.0.B03.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026266T021531.v2.0/HLS.S30.T50PRB.2026266T021531.v2.0.B04.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026266T021531.v2.0/HLS.S30.T50PRB.2026266T021531.v2.0.B8A.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026266T021531.v2.0/HLS.S30.T50PRB.2026266T021531.v2.0.B02.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026266T021531.v2.0/HLS.S30.T50PRB.2026266T021531.v2.0.B09.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026266T021531.v2.0/HLS.S30.T50PRB.2026266T021531.v2.0.SZA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026266T021531.v2.0/HLS.S30.T50PRB.2026266T021531.v2.0.B10.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026266T021531.v2.0/HLS.S30.T50PRB.2026266T021531.v2.0.B05.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026266T021531.v2.0/HLS.S30.T50PRB.2026266T021531.v2.0.B06.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026266T021531.v2.0/HLS.S30.T50PRB.2026266T021531.v2.0.B08.tif"
+      ]
+    },
+    {
+      "id": "HLS.S30.T51PTS.2026268T022131.v2.0",
+      "date": "2026-09-25T02:33:50.844Z",
+      "cloud_cover": "28",
+      "concept_id": "G4325169584-LPCLOUD",
+      "links": [
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026268T022131.v2.0/HLS.S30.T51PTS.2026268T022131.v2.0.B03.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026268T022131.v2.0/HLS.S30.T51PTS.2026268T022131.v2.0.B07.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026268T022131.v2.0/HLS.S30.T51PTS.2026268T022131.v2.0.VAA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026268T022131.v2.0/HLS.S30.T51PTS.2026268T022131.v2.0.B11.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026268T022131.v2.0/HLS.S30.T51PTS.2026268T022131.v2.0.B01.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026268T022131.v2.0/HLS.S30.T51PTS.2026268T022131.v2.0.B08.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026268T022131.v2.0/HLS.S30.T51PTS.2026268T022131.v2.0.B02.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026268T022131.v2.0/HLS.S30.T51PTS.2026268T022131.v2.0.SZA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026268T022131.v2.0/HLS.S30.T51PTS.2026268T022131.v2.0.B10.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026268T022131.v2.0/HLS.S30.T51PTS.2026268T022131.v2.0.B8A.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026268T022131.v2.0/HLS.S30.T51PTS.2026268T022131.v2.0.B09.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026268T022131.v2.0/HLS.S30.T51PTS.2026268T022131.v2.0.B05.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026268T022131.v2.0/HLS.S30.T51PTS.2026268T022131.v2.0.VZA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026268T022131.v2.0/HLS.S30.T51PTS.2026268T022131.v2.0.SAA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026268T022131.v2.0/HLS.S30.T51PTS.2026268T022131.v2.0.B12.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026268T022131.v2.0/HLS.S30.T51PTS.2026268T022131.v2.0.B06.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026268T022131.v2.0/HLS.S30.T51PTS.2026268T022131.v2.0.Fmask.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026268T022131.v2.0/HLS.S30.T51PTS.2026268T022131.v2.0.B04.tif"
+      ]
+    },
+    {
+      "id": "HLS.S30.T50PRB.2026268T022131.v2.0",
+      "date": "2026-09-25T02:33:52.556Z",
+      "cloud_cover": "19",
+      "concept_id": "G4325164325-LPCLOUD",
+      "links": [
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026268T022131.v2.0/HLS.S30.T50PRB.2026268T022131.v2.0.B02.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026268T022131.v2.0/HLS.S30.T50PRB.2026268T022131.v2.0.B08.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026268T022131.v2.0/HLS.S30.T50PRB.2026268T022131.v2.0.B8A.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026268T022131.v2.0/HLS.S30.T50PRB.2026268T022131.v2.0.VAA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026268T022131.v2.0/HLS.S30.T50PRB.2026268T022131.v2.0.Fmask.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026268T022131.v2.0/HLS.S30.T50PRB.2026268T022131.v2.0.B11.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026268T022131.v2.0/HLS.S30.T50PRB.2026268T022131.v2.0.B07.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026268T022131.v2.0/HLS.S30.T50PRB.2026268T022131.v2.0.B06.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026268T022131.v2.0/HLS.S30.T50PRB.2026268T022131.v2.0.B01.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026268T022131.v2.0/HLS.S30.T50PRB.2026268T022131.v2.0.SAA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026268T022131.v2.0/HLS.S30.T50PRB.2026268T022131.v2.0.B05.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026268T022131.v2.0/HLS.S30.T50PRB.2026268T022131.v2.0.B10.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026268T022131.v2.0/HLS.S30.T50PRB.2026268T022131.v2.0.B04.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026268T022131.v2.0/HLS.S30.T50PRB.2026268T022131.v2.0.B12.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026268T022131.v2.0/HLS.S30.T50PRB.2026268T022131.v2.0.SZA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026268T022131.v2.0/HLS.S30.T50PRB.2026268T022131.v2.0.VZA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026268T022131.v2.0/HLS.S30.T50PRB.2026268T022131.v2.0.B03.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026268T022131.v2.0/HLS.S30.T50PRB.2026268T022131.v2.0.B09.tif"
+      ]
+    },
+    {
+      "id": "HLS.S30.T51PTS.2026271T021559.v2.0",
+      "date": "2026-09-28T02:33:36.902Z",
+      "cloud_cover": "63",
+      "concept_id": "G4328743053-LPCLOUD",
+      "links": [
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026271T021559.v2.0/HLS.S30.T51PTS.2026271T021559.v2.0.SZA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026271T021559.v2.0/HLS.S30.T51PTS.2026271T021559.v2.0.B05.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026271T021559.v2.0/HLS.S30.T51PTS.2026271T021559.v2.0.B09.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026271T021559.v2.0/HLS.S30.T51PTS.2026271T021559.v2.0.B03.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026271T021559.v2.0/HLS.S30.T51PTS.2026271T021559.v2.0.B12.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026271T021559.v2.0/HLS.S30.T51PTS.2026271T021559.v2.0.B06.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026271T021559.v2.0/HLS.S30.T51PTS.2026271T021559.v2.0.B11.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026271T021559.v2.0/HLS.S30.T51PTS.2026271T021559.v2.0.B02.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026271T021559.v2.0/HLS.S30.T51PTS.2026271T021559.v2.0.B04.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026271T021559.v2.0/HLS.S30.T51PTS.2026271T021559.v2.0.B08.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026271T021559.v2.0/HLS.S30.T51PTS.2026271T021559.v2.0.B10.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026271T021559.v2.0/HLS.S30.T51PTS.2026271T021559.v2.0.VAA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026271T021559.v2.0/HLS.S30.T51PTS.2026271T021559.v2.0.Fmask.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026271T021559.v2.0/HLS.S30.T51PTS.2026271T021559.v2.0.B01.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026271T021559.v2.0/HLS.S30.T51PTS.2026271T021559.v2.0.VZA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026271T021559.v2.0/HLS.S30.T51PTS.2026271T021559.v2.0.B07.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026271T021559.v2.0/HLS.S30.T51PTS.2026271T021559.v2.0.B8A.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026271T021559.v2.0/HLS.S30.T51PTS.2026271T021559.v2.0.SAA.tif"
+      ]
+    },
+    {
+      "id": "HLS.S30.T50PRB.2026271T021559.v2.0",
+      "date": "2026-09-28T02:33:38.612Z",
+      "cloud_cover": "63",
+      "concept_id": "G4328735478-LPCLOUD",
+      "links": [
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026271T021559.v2.0/HLS.S30.T50PRB.2026271T021559.v2.0.SAA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026271T021559.v2.0/HLS.S30.T50PRB.2026271T021559.v2.0.B02.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026271T021559.v2.0/HLS.S30.T50PRB.2026271T021559.v2.0.VAA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026271T021559.v2.0/HLS.S30.T50PRB.2026271T021559.v2.0.B8A.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026271T021559.v2.0/HLS.S30.T50PRB.2026271T021559.v2.0.B03.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026271T021559.v2.0/HLS.S30.T50PRB.2026271T021559.v2.0.B11.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026271T021559.v2.0/HLS.S30.T50PRB.2026271T021559.v2.0.B08.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026271T021559.v2.0/HLS.S30.T50PRB.2026271T021559.v2.0.B01.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026271T021559.v2.0/HLS.S30.T50PRB.2026271T021559.v2.0.Fmask.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026271T021559.v2.0/HLS.S30.T50PRB.2026271T021559.v2.0.B12.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026271T021559.v2.0/HLS.S30.T50PRB.2026271T021559.v2.0.VZA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026271T021559.v2.0/HLS.S30.T50PRB.2026271T021559.v2.0.SZA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026271T021559.v2.0/HLS.S30.T50PRB.2026271T021559.v2.0.B05.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026271T021559.v2.0/HLS.S30.T50PRB.2026271T021559.v2.0.B10.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026271T021559.v2.0/HLS.S30.T50PRB.2026271T021559.v2.0.B09.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026271T021559.v2.0/HLS.S30.T50PRB.2026271T021559.v2.0.B04.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026271T021559.v2.0/HLS.S30.T50PRB.2026271T021559.v2.0.B06.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026271T021559.v2.0/HLS.S30.T50PRB.2026271T021559.v2.0.B07.tif"
+      ]
+    },
+    {
+      "id": "HLS.S30.T51PTS.2026096T021601.v2.0",
+      "date": "2026-04-06T02:33:36.130Z",
+      "cloud_cover": "21",
+      "concept_id": "G4127252490-LPCLOUD",
+      "links": [
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.B06.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.Fmask.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.SZA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.B03.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.B02.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.B07.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.B10.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.VAA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.VZA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.B08.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.B01.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.B8A.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.B04.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.B11.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.B09.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.SAA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.B12.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.B05.tif"
+      ]
+    },
+    {
+      "id": "HLS.S30.T50PRB.2026096T021601.v2.0",
+      "date": "2026-04-06T02:33:37.842Z",
+      "cloud_cover": "11",
+      "concept_id": "G4127223745-LPCLOUD",
+      "links": [
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026096T021601.v2.0/HLS.S30.T50PRB.2026096T021601.v2.0.B11.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026096T021601.v2.0/HLS.S30.T50PRB.2026096T021601.v2.0.B02.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026096T021601.v2.0/HLS.S30.T50PRB.2026096T021601.v2.0.B04.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026096T021601.v2.0/HLS.S30.T50PRB.2026096T021601.v2.0.B06.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026096T021601.v2.0/HLS.S30.T50PRB.2026096T021601.v2.0.VZA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026096T021601.v2.0/HLS.S30.T50PRB.2026096T021601.v2.0.B09.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026096T021601.v2.0/HLS.S30.T50PRB.2026096T021601.v2.0.SZA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026096T021601.v2.0/HLS.S30.T50PRB.2026096T021601.v2.0.Fmask.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026096T021601.v2.0/HLS.S30.T50PRB.2026096T021601.v2.0.B07.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026096T021601.v2.0/HLS.S30.T50PRB.2026096T021601.v2.0.B08.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026096T021601.v2.0/HLS.S30.T50PRB.2026096T021601.v2.0.B10.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026096T021601.v2.0/HLS.S30.T50PRB.2026096T021601.v2.0.VAA.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026096T021601.v2.0/HLS.S30.T50PRB.2026096T021601.v2.0.B01.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026096T021601.v2.0/HLS.S30.T50PRB.2026096T021601.v2.0.B03.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026096T021601.v2.0/HLS.S30.T50PRB.2026096T021601.v2.0.B05.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026096T021601.v2.0/HLS.S30.T50PRB.2026096T021601.v2.0.B8A.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026096T021601.v2.0/HLS.S30.T50PRB.2026096T021601.v2.0.B12.tif",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T50PRB.2026096T021601.v2.0/HLS.S30.T50PRB.2026096T021601.v2.0.SAA.tif"
+      ]
+    }
+  ],
+  "GPM_3IMERGDF": [],
+  "GPM_3IMERGDL": [
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260801-S000000-E235959.V07C.nc4",
+      "date": "2026-08-01T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4268346664-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/08/3B-DAY-L.MS.MRG.3IMERG.20260801-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260802-S000000-E235959.V07C.nc4",
+      "date": "2026-08-02T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4269088663-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/08/3B-DAY-L.MS.MRG.3IMERG.20260802-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260803-S000000-E235959.V07C.nc4",
+      "date": "2026-08-03T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4270147628-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/08/3B-DAY-L.MS.MRG.3IMERG.20260803-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260804-S000000-E235959.V07C.nc4",
+      "date": "2026-08-04T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4271214923-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/08/3B-DAY-L.MS.MRG.3IMERG.20260804-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260805-S000000-E235959.V07C.nc4",
+      "date": "2026-08-05T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4272273207-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/08/3B-DAY-L.MS.MRG.3IMERG.20260805-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260806-S000000-E235959.V07C.nc4",
+      "date": "2026-08-06T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4273439034-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/08/3B-DAY-L.MS.MRG.3IMERG.20260806-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260807-S000000-E235959.V07C.nc4",
+      "date": "2026-08-07T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4274263811-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/08/3B-DAY-L.MS.MRG.3IMERG.20260807-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260808-S000000-E235959.V07C.nc4",
+      "date": "2026-08-08T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4274863317-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/08/3B-DAY-L.MS.MRG.3IMERG.20260808-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260809-S000000-E235959.V07C.nc4",
+      "date": "2026-08-09T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4275361197-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/08/3B-DAY-L.MS.MRG.3IMERG.20260809-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260810-S000000-E235959.V07C.nc4",
+      "date": "2026-08-10T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4276333295-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/08/3B-DAY-L.MS.MRG.3IMERG.20260810-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260811-S000000-E235959.V07C.nc4",
+      "date": "2026-08-11T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4277405819-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/08/3B-DAY-L.MS.MRG.3IMERG.20260811-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260812-S000000-E235959.V07C.nc4",
+      "date": "2026-08-12T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4278415280-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/08/3B-DAY-L.MS.MRG.3IMERG.20260812-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260813-S000000-E235959.V07C.nc4",
+      "date": "2026-08-13T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4279437909-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/08/3B-DAY-L.MS.MRG.3IMERG.20260813-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260814-S000000-E235959.V07C.nc4",
+      "date": "2026-08-14T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4280352489-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/08/3B-DAY-L.MS.MRG.3IMERG.20260814-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260815-S000000-E235959.V07C.nc4",
+      "date": "2026-08-15T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4281213599-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/08/3B-DAY-L.MS.MRG.3IMERG.20260815-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260816-S000000-E235959.V07C.nc4",
+      "date": "2026-08-16T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4281796853-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/08/3B-DAY-L.MS.MRG.3IMERG.20260816-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260817-S000000-E235959.V07C.nc4",
+      "date": "2026-08-17T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4282341870-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/08/3B-DAY-L.MS.MRG.3IMERG.20260817-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260818-S000000-E235959.V07C.nc4",
+      "date": "2026-08-18T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4283109291-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/08/3B-DAY-L.MS.MRG.3IMERG.20260818-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260819-S000000-E235959.V07C.nc4",
+      "date": "2026-08-19T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4283885315-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/08/3B-DAY-L.MS.MRG.3IMERG.20260819-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260820-S000000-E235959.V07C.nc4",
+      "date": "2026-08-20T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4284616668-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/08/3B-DAY-L.MS.MRG.3IMERG.20260820-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260821-S000000-E235959.V07C.nc4",
+      "date": "2026-08-21T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4285521958-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/08/3B-DAY-L.MS.MRG.3IMERG.20260821-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260822-S000000-E235959.V07C.nc4",
+      "date": "2026-08-22T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4286189374-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/08/3B-DAY-L.MS.MRG.3IMERG.20260822-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260823-S000000-E235959.V07C.nc4",
+      "date": "2026-08-23T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4286870434-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/08/3B-DAY-L.MS.MRG.3IMERG.20260823-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260824-S000000-E235959.V07C.nc4",
+      "date": "2026-08-24T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4287778739-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/08/3B-DAY-L.MS.MRG.3IMERG.20260824-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260825-S000000-E235959.V07C.nc4",
+      "date": "2026-08-25T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4288619043-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/08/3B-DAY-L.MS.MRG.3IMERG.20260825-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260826-S000000-E235959.V07C.nc4",
+      "date": "2026-08-26T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4289602693-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/08/3B-DAY-L.MS.MRG.3IMERG.20260826-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260827-S000000-E235959.V07C.nc4",
+      "date": "2026-08-27T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4290637009-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/08/3B-DAY-L.MS.MRG.3IMERG.20260827-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260828-S000000-E235959.V07C.nc4",
+      "date": "2026-08-28T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4291711057-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/08/3B-DAY-L.MS.MRG.3IMERG.20260828-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260829-S000000-E235959.V07C.nc4",
+      "date": "2026-08-29T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4292767801-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/08/3B-DAY-L.MS.MRG.3IMERG.20260829-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260830-S000000-E235959.V07C.nc4",
+      "date": "2026-08-30T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4293738470-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/08/3B-DAY-L.MS.MRG.3IMERG.20260830-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260831-S000000-E235959.V07C.nc4",
+      "date": "2026-08-31T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4295014510-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/08/3B-DAY-L.MS.MRG.3IMERG.20260831-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260901-S000000-E235959.V07C.nc4",
+      "date": "2026-09-01T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4296319489-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/09/3B-DAY-L.MS.MRG.3IMERG.20260901-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260902-S000000-E235959.V07C.nc4",
+      "date": "2026-09-02T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4297547469-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/09/3B-DAY-L.MS.MRG.3IMERG.20260902-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260903-S000000-E235959.V07C.nc4",
+      "date": "2026-09-03T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4298275744-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/09/3B-DAY-L.MS.MRG.3IMERG.20260903-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260904-S000000-E235959.V07C.nc4",
+      "date": "2026-09-04T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4299290195-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/09/3B-DAY-L.MS.MRG.3IMERG.20260904-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260905-S000000-E235959.V07C.nc4",
+      "date": "2026-09-05T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4300340859-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/09/3B-DAY-L.MS.MRG.3IMERG.20260905-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260906-S000000-E235959.V07C.nc4",
+      "date": "2026-09-06T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4301377170-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/09/3B-DAY-L.MS.MRG.3IMERG.20260906-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260907-S000000-E235959.V07C.nc4",
+      "date": "2026-09-07T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4302366645-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/09/3B-DAY-L.MS.MRG.3IMERG.20260907-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260908-S000000-E235959.V07C.nc4",
+      "date": "2026-09-08T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4303817534-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/09/3B-DAY-L.MS.MRG.3IMERG.20260908-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260909-S000000-E235959.V07C.nc4",
+      "date": "2026-09-09T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4305457160-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/09/3B-DAY-L.MS.MRG.3IMERG.20260909-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260910-S000000-E235959.V07C.nc4",
+      "date": "2026-09-10T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4307155161-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/09/3B-DAY-L.MS.MRG.3IMERG.20260910-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260911-S000000-E235959.V07C.nc4",
+      "date": "2026-09-11T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4308783838-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/09/3B-DAY-L.MS.MRG.3IMERG.20260911-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260912-S000000-E235959.V07C.nc4",
+      "date": "2026-09-12T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4309862750-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/09/3B-DAY-L.MS.MRG.3IMERG.20260912-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260913-S000000-E235959.V07C.nc4",
+      "date": "2026-09-13T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4310601989-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/09/3B-DAY-L.MS.MRG.3IMERG.20260913-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260914-S000000-E235959.V07C.nc4",
+      "date": "2026-09-14T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4311850499-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/09/3B-DAY-L.MS.MRG.3IMERG.20260914-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260915-S000000-E235959.V07C.nc4",
+      "date": "2026-09-15T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4313103207-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/09/3B-DAY-L.MS.MRG.3IMERG.20260915-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260916-S000000-E235959.V07C.nc4",
+      "date": "2026-09-16T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4314523345-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/09/3B-DAY-L.MS.MRG.3IMERG.20260916-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260917-S000000-E235959.V07C.nc4",
+      "date": "2026-09-17T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4315673092-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/09/3B-DAY-L.MS.MRG.3IMERG.20260917-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260918-S000000-E235959.V07C.nc4",
+      "date": "2026-09-18T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4316684612-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/09/3B-DAY-L.MS.MRG.3IMERG.20260918-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260919-S000000-E235959.V07C.nc4",
+      "date": "2026-09-19T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4317687397-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/09/3B-DAY-L.MS.MRG.3IMERG.20260919-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260920-S000000-E235959.V07C.nc4",
+      "date": "2026-09-20T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4318683909-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/09/3B-DAY-L.MS.MRG.3IMERG.20260920-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260921-S000000-E235959.V07C.nc4",
+      "date": "2026-09-21T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4319846887-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/09/3B-DAY-L.MS.MRG.3IMERG.20260921-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260922-S000000-E235959.V07C.nc4",
+      "date": "2026-09-22T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4320961350-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/09/3B-DAY-L.MS.MRG.3IMERG.20260922-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260923-S000000-E235959.V07C.nc4",
+      "date": "2026-09-23T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4322335330-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/09/3B-DAY-L.MS.MRG.3IMERG.20260923-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260924-S000000-E235959.V07C.nc4",
+      "date": "2026-09-24T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4323488133-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/09/3B-DAY-L.MS.MRG.3IMERG.20260924-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260925-S000000-E235959.V07C.nc4",
+      "date": "2026-09-25T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4324715847-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/09/3B-DAY-L.MS.MRG.3IMERG.20260925-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260926-S000000-E235959.V07C.nc4",
+      "date": "2026-09-26T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4325844998-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/09/3B-DAY-L.MS.MRG.3IMERG.20260926-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260927-S000000-E235959.V07C.nc4",
+      "date": "2026-09-27T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4326794413-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/09/3B-DAY-L.MS.MRG.3IMERG.20260927-S000000-E235959.V07C.nc4"
+      ]
+    },
+    {
+      "id": "GPM_3IMERGDL.07:3B-DAY-L.MS.MRG.3IMERG.20260928-S000000-E235959.V07C.nc4",
+      "date": "2026-09-28T00:00:00.000Z",
+      "cloud_cover": null,
+      "concept_id": "G4328145211-GES_DISC",
+      "links": [
+        "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDL.07/2026/09/3B-DAY-L.MS.MRG.3IMERG.20260928-S000000-E235959.V07C.nc4"
+      ]
+    }
+  ]
+}

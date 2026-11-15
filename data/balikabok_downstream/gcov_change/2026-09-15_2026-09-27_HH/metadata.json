@@ -1,0 +1,99 @@
+{
+  "product": "GCOV_CHANGE",
+  "aoi": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          120.34,
+          14.8
+        ],
+        [
+          120.57,
+          14.8
+        ],
+        [
+          120.57,
+          14.97
+        ],
+        [
+          120.34,
+          14.97
+        ],
+        [
+          120.34,
+          14.8
+        ]
+      ]
+    ]
+  },
+  "identification": {
+    "zeroDopplerStartTime": "2026-09-27T21:30:31.000000000",
+    "zeroDopplerEndTime": "2026-09-27T21:31:06.999342105",
+    "orbitPassDirection": "Ascending",
+    "trackNumber": 140,
+    "frameNumber": 9,
+    "absoluteOrbitNumber": 6121,
+    "lookDirection": "Left",
+    "productVersion": "1.0.11",
+    "radarBand": "L"
+  },
+  "before_id": "NISAR_L2_PR_GCOV_030_140_A_009_4005_DHDH_A_20260915T213031_20260915T213106_P05023_N_F_J_001",
+  "after_id": "NISAR_L2_PR_GCOV_031_140_A_009_4005_DHDH_A_20260927T213031_20260927T213106_P05023_N_F_J_001",
+  "start_at": "2026-09-15T21:30:31.000000000",
+  "end_at": "2026-09-27T21:30:31.000000000",
+  "sources": [
+    "https://nisar.asf.earthdatacloud.nasa.gov/NISAR/NISAR_L2_GCOV_PROVISIONAL_V1/NISAR_L2_PR_GCOV_030_140_A_009_4005_DHDH_A_20260915T213031_20260915T213106_P05023_N_F_J_001/NISAR_L2_PR_GCOV_030_140_A_009_4005_DHDH_A_20260915T213031_20260915T213106_P05023_N_F_J_001.h5",
+    "https://nisar.asf.earthdatacloud.nasa.gov/NISAR/NISAR_L2_GCOV_PROVISIONAL_V1/NISAR_L2_PR_GCOV_031_140_A_009_4005_DHDH_A_20260927T213031_20260927T213106_P05023_N_F_J_001/NISAR_L2_PR_GCOV_031_140_A_009_4005_DHDH_A_20260927T213031_20260927T213106_P05023_N_F_J_001.h5"
+  ],
+  "bounds": [
+    [
+      14.797161443257021,
+      120.33766868269063
+    ],
+    [
+      14.972802279838689,
+      120.57216688744472
+    ]
+  ],
+  "source_crs": "EPSG:32651",
+  "shape": [
+    1916,
+    2503
+  ],
+  "transform": [
+    10.0,
+    0.0,
+    213650.0,
+    0.0,
+    -10.0,
+    1656750.0
+  ],
+  "units": "dB",
+  "polarization": "HH",
+  "display_min": -6,
+  "display_max": 6,
+  "valid_pixel_count": 4660044,
+  "hotspots": {
+    "file": "hotspots.png",
+    "bounds": [
+      [
+        14.797171385727907,
+        120.3376686826906
+      ],
+      [
+        14.972802279838682,
+        120.57221880337421
+      ]
+    ],
+    "threshold_db": 3,
+    "maximum_db": 9,
+    "window_pixels": 9,
+    "window_m": 90,
+    "minimum_patch_m2": 10000,
+    "minimum_valid_fraction": 0.9,
+    "highlighted_pixel_count": 12112,
+    "method": "9x9 moving mean of linear intensity on shared-valid pixels, then absolute 10log10(later/earlier). Require at least 90% neighborhood support and valid center; show >=3 dB in 8-connected patches >=100 pixels (1 ha). Exploratory screening, not a validated landslide classifier."
+  },
+  "method": "Later minus earlier HH backscatter in dB, using the intersection of native validity and both exported GCOV analysis-valid masks. No spatial averaging or classification."
+}

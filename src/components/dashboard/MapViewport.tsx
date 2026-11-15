@@ -15,6 +15,11 @@ export default function MapViewport({ location, onMovingChange }: {
   const previousLocation = useRef(location)
   const previousReducedMotion = useRef(reduceMotion)
   useLayoutEffect(() => {
+    const controls = [map.dragging, map.scrollWheelZoom, map.doubleClickZoom, map.touchZoom, map.keyboard]
+    controls.forEach(control => location ? control.enable() : control.disable())
+    return () => controls.forEach(control => control.disable())
+  }, [map, location])
+  useLayoutEffect(() => {
     let frame = 0
     let size = map.getSize()
     const acquisition = location ? gcovManifest[location]?.[0] ?? gunwManifest[location]?.[0] : undefined

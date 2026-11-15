@@ -10,7 +10,7 @@ export default function LocationIndex({ onSelectLocation }: { onSelectLocation: 
         <span className="atlas-eyebrow">The observation index</span>
         {locations.map(([slug, observations], index) => <button key={slug} onClick={() => onSelectLocation(slug)}>
           <span className="atlas-index-number">{String(index + 1).padStart(2, '0')}</span>
-          <span><strong>{nameFor(slug)}</strong><small>{observations.length} acquisitions · {dateFormatter.format(dateFor(observations[0].acquiredAt))} — {dateFormatter.format(dateFor(observations.at(-1)!.acquiredAt))}</small></span>
+          <span className="atlas-index-copy"><strong>{nameFor(slug)}</strong><small>{observations.length} acquisitions · {dateFormatter.format(dateFor(observations[0].acquiredAt))} — {dateFormatter.format(dateFor(observations.at(-1)!.acquiredAt))}</small></span>
           <span className="atlas-index-arrow" aria-hidden="true">↗</span>
         </button>)}
         {locations.length === 0 && <p>No study locations available yet.</p>}

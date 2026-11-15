@@ -1,0 +1,190 @@
+{
+  "source": "https://nisar.asf.earthdatacloud.nasa.gov/NISAR/NISAR_L2_GCOV_PROVISIONAL_V1/NISAR_L2_PR_GCOV_027_140_A_009_4005_DHDH_A_20260810T213032_20260810T213107_P05023_N_F_J_001/NISAR_L2_PR_GCOV_027_140_A_009_4005_DHDH_A_20260810T213032_20260810T213107_P05023_N_F_J_001.h5",
+  "product": "GCOV",
+  "aoi": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          120.34,
+          14.8
+        ],
+        [
+          120.57,
+          14.8
+        ],
+        [
+          120.57,
+          14.97
+        ],
+        [
+          120.34,
+          14.97
+        ],
+        [
+          120.34,
+          14.8
+        ]
+      ]
+    ]
+  },
+  "identification": {
+    "zeroDopplerStartTime": "2026-08-10T21:30:32.000000000",
+    "zeroDopplerEndTime": "2026-08-10T21:31:07.999342105",
+    "orbitPassDirection": "Ascending",
+    "trackNumber": 140,
+    "frameNumber": 9,
+    "absoluteOrbitNumber": 5429,
+    "lookDirection": "Left",
+    "productVersion": "1.0.11",
+    "radarBand": "L"
+  },
+  "frequencies": {
+    "A": {
+      "source_crs": "EPSG:32651",
+      "shape": [
+        1916,
+        2503
+      ],
+      "transform": [
+        10.0,
+        0.0,
+        213650.0,
+        0.0,
+        -10.0,
+        1656750.0
+      ],
+      "bounds_file": "bounds.json",
+      "backscatter": {
+        "file": "db.tif",
+        "layer": "/science/LSAR/GCOV/grids/frequencyA/HHHH",
+        "units": "dB",
+        "visualization": "Single-acquisition backscatter (dB)",
+        "display_min_db": -19.21367462158203,
+        "display_max_db": 0.6210505366325378
+      },
+      "layers": {
+        "HHHH": {
+          "file": "HHHH.tif",
+          "source_path": "/science/LSAR/GCOV/grids/frequencyA/HHHH",
+          "dtype": "float32",
+          "kind": "covariance",
+          "valid_pixel_count": 4660060,
+          "attributes": {
+            "_FillValue": null,
+            "description": "Covariance between HH and HH",
+            "grid_mapping": "projection",
+            "long_name": "Geocoded polarimetric covariance term HHHH",
+            "max_value": 85534.578125,
+            "mean_value": 0.19185863435268402,
+            "min_value": 1.0764297257992439e-05,
+            "sample_stddev": 7.076667308807373,
+            "units": "1",
+            "valid_min": 0.0
+          }
+        },
+        "HVHV": {
+          "file": "HVHV.tif",
+          "source_path": "/science/LSAR/GCOV/grids/frequencyA/HVHV",
+          "dtype": "float32",
+          "kind": "covariance",
+          "valid_pixel_count": 4660060,
+          "attributes": {
+            "_FillValue": null,
+            "description": "Covariance between HV and HV",
+            "grid_mapping": "projection",
+            "long_name": "Geocoded polarimetric covariance term HVHV",
+            "max_value": 24189.390625,
+            "mean_value": 0.03596197068691254,
+            "min_value": 1.9561564386094688e-06,
+            "sample_stddev": 1.4469506740570068,
+            "units": "1",
+            "valid_min": 0.0
+          }
+        },
+        "mask": {
+          "file": "mask.tif",
+          "source_path": "/science/LSAR/GCOV/grids/frequencyA/mask",
+          "dtype": "uint8",
+          "kind": "quality",
+          "valid_pixel_count": 4660365,
+          "attributes": {
+            "_FillValue": 255,
+            "description": "Mask indicating the subswath number associated with valid GCOV samples. A GCOV sample is only considered valid if it is generated from fully-focused radar samples. If at least one radar sample in the averaging set is partially focused or invalid, the corresponding mask pixel will contain the value 0. GCOV pixels outside of the radar acquisition extent are filled with the value 255",
+            "grid_mapping": "projection",
+            "long_name": "Valid samples subswath mask",
+            "valid_min": 0
+          }
+        },
+        "numberOfLooks": {
+          "file": "numberOfLooks.tif",
+          "source_path": "/science/LSAR/GCOV/grids/frequencyA/numberOfLooks",
+          "dtype": "float32",
+          "kind": "quality",
+          "valid_pixel_count": 4660060,
+          "attributes": {
+            "_FillValue": null,
+            "description": "Number of averaged radar-grid pixels for covariance estimation",
+            "grid_mapping": "projection",
+            "long_name": "Number of radar looks",
+            "max_value": 14.81867790222168,
+            "mean_value": 4.587677001953125,
+            "min_value": 1.514233183286251e-12,
+            "sample_stddev": 0.8047558069229126,
+            "units": "1",
+            "valid_min": 0.0
+          }
+        },
+        "rtcGammaToSigmaFactor": {
+          "file": "rtcGammaToSigmaFactor.tif",
+          "source_path": "/science/LSAR/GCOV/grids/frequencyA/rtcGammaToSigmaFactor",
+          "dtype": "float32",
+          "kind": "quality",
+          "valid_pixel_count": 4660060,
+          "attributes": {
+            "_FillValue": null,
+            "description": "Radiometric terrain correction (RTC) scaling factor to normalize backscatter coefficients from gamma0 to sigma0, accounting for local terrain",
+            "grid_mapping": "projection",
+            "long_name": "Radiometric terrain correction area normalization factor gamma0 to sigma0",
+            "max_value": 0.9993694424629211,
+            "mean_value": 0.7405993342399597,
+            "min_value": 0.0008737068856135011,
+            "sample_stddev": 0.08206229656934738,
+            "units": "1",
+            "valid_min": 0.0
+          }
+        },
+        "inputDataExceptionMask": {
+          "file": "inputDataExceptionMask.tif",
+          "source_path": "/science/LSAR/GCOV/grids/frequencyA/inputDataExceptionMask",
+          "dtype": "uint8",
+          "kind": "quality",
+          "valid_pixel_count": 4660365,
+          "attributes": {
+            "description": "Bitwise OR of input data exception codes for each image pixel (0: no anomaly, 2: NISAR LSAR qFSP-H1 sample slip)",
+            "grid_mapping": "projection",
+            "valid_min": 0
+          }
+        }
+      },
+      "missing_quality_layers": [],
+      "analysis_valid_mask": {
+        "file": "analysis_valid_mask.tif",
+        "criteria": [
+          "Inside AOI and valid in every exported covariance term",
+          "mask is between 1 and 254 (fully focused subswath)",
+          "numberOfLooks > 0",
+          "inputDataExceptionMask == 0 (no reported exception)"
+        ],
+        "valid_pixel_count": 4660060
+      },
+      "processing": "AOI clipping only; native values, grid, and dtypes preserved",
+      "validity": "Read GeoTIFF internal masks; invalid stored values are zero",
+      "limitations": [
+        "Available quality checks only; GCOV mask is not a landslide or layover/shadow mask.",
+        "No temporal change, interferometric coherence, or displacement is computed.",
+        "Landslide mapping requires comparison acquisitions, terrain data, and validation."
+      ]
+    }
+  }
+}

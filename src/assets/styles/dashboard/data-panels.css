@@ -5,6 +5,7 @@
 .atlas-gunw-views button[aria-pressed="true"] { border-color: var(--atlas-copper); color: var(--atlas-copper); }
 .atlas-gunw-scale { height: 12px; margin: 10px 0 8px; }
 .atlas-gunw-scale--phase { background: linear-gradient(90deg, #2166ac, #f7f7f7, #b2182b); }
+.atlas-gunw-scale--hotspots { background: linear-gradient(90deg, #ffdc46, #ff7d1e, #be1414); }
 .atlas-gunw-scale--coherence { background: linear-gradient(90deg, #440154, #3b528b, #21918c, #5ec962, #fde725); }
 .atlas-gunw-scale--coherenceChange { background: linear-gradient(90deg, #b2182b, #f7f7f7, #2166ac); }
 .atlas-observation-list small { display: block; color: #a2ae95; font-size: 9px; margin-top: 5px; line-height: 1.5; }

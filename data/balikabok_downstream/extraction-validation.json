@@ -1,0 +1,46 @@
+{
+  "GCOV": [
+    {
+      "id": "NISAR_L2_PR_GCOV_027_140_A_009_4005_DHDH_A_20260810T213032_20260810T213107_P05023_N_F_J_001",
+      "geometry_and_masks_verified": true
+    },
+    {
+      "id": "NISAR_L2_PR_GCOV_028_140_A_009_4005_DHDH_A_20260822T213032_20260822T213106_P05023_N_F_J_001",
+      "geometry_and_masks_verified": true
+    },
+    {
+      "id": "NISAR_L2_PR_GCOV_029_140_A_009_4005_DHDH_A_20260903T213032_20260903T213106_P05023_N_F_J_001",
+      "geometry_and_masks_verified": true
+    },
+    {
+      "id": "NISAR_L2_PR_GCOV_030_140_A_009_4005_DHDH_A_20260915T213031_20260915T213106_P05023_N_F_J_001",
+      "geometry_and_masks_verified": true
+    },
+    {
+      "id": "NISAR_L2_PR_GCOV_031_140_A_009_4005_DHDH_A_20260927T213031_20260927T213106_P05023_N_F_J_001",
+      "geometry_and_masks_verified": true
+    }
+  ],
+  "GUNW": [
+    {
+      "id": "NISAR_L2_PR_GUNW_027_140_A_009_028_4000_SH_20260810T213032_20260810T213107_20260822T213032_20260822T213106_P05023_N_F_J_001",
+      "geometry_and_masks_verified": true,
+      "reference_water_pixels_20m": 85344
+    },
+    {
+      "id": "NISAR_L2_PR_GUNW_028_140_A_009_029_4000_SH_20260822T213032_20260822T213106_20260903T213032_20260903T213106_P05023_N_F_J_001",
+      "geometry_and_masks_verified": true,
+      "reference_water_pixels_20m": 85344
+    },
+    {
+      "id": "NISAR_L2_PR_GUNW_029_140_A_009_030_4000_SH_20260903T213032_20260903T213106_20260915T213031_20260915T213106_P05023_N_F_J_001",
+      "geometry_and_masks_verified": true,
+      "reference_water_pixels_20m": 85344
+    },
+    {
+      "id": "NISAR_L2_PR_GUNW_030_140_A_009_031_4000_SH_20260915T213031_20260915T213106_20260927T213031_20260927T213106_P05023_N_F_J_001",
+      "geometry_and_masks_verified": true,
+      "reference_water_pixels_20m": 85344
+    }
+  ]
+}

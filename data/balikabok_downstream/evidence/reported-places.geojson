@@ -1,0 +1,62 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.4277,
+          14.9002
+        ]
+      },
+      "properties": {
+        "brgy_name": "Pita",
+        "city_name": "Dinalupihan",
+        "prov_name": "Bataan",
+        "location_source": "https://www.philatlas.com/luzon/r03/bataan/dinalupihan/pita.html",
+        "report_source": "https://philsa.gov.ph/news/satellite-data-shows-august-30-landslide-in-subic-zambales-following-prolonged-rains/",
+        "status": "Flooding reported by PhilSA",
+        "location_kind": "Approximate barangay reference point, not an observed damage location or flood boundary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.4513,
+          14.8947
+        ]
+      },
+      "properties": {
+        "brgy_name": "Dalao",
+        "city_name": "Dinalupihan",
+        "prov_name": "Bataan",
+        "location_source": "https://www.philatlas.com/luzon/r03/bataan/dinalupihan/dalao.html",
+        "report_source": "https://philsa.gov.ph/news/satellite-data-shows-august-30-landslide-in-subic-zambales-following-prolonged-rains/",
+        "status": "Flooding reported by PhilSA",
+        "location_kind": "Approximate barangay reference point, not an observed damage location or flood boundary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.4671,
+          14.8926
+        ]
+      },
+      "properties": {
+        "brgy_name": "Pagalanggang",
+        "city_name": "Dinalupihan",
+        "prov_name": "Bataan",
+        "location_source": "https://www.philatlas.com/luzon/r03/bataan/dinalupihan/pagalanggang.html",
+        "report_source": "https://philsa.gov.ph/news/satellite-data-shows-august-30-landslide-in-subic-zambales-following-prolonged-rains/",
+        "status": "Flooding reported by PhilSA",
+        "location_kind": "Approximate barangay reference point, not an observed damage location or flood boundary"
+      }
+    }
+  ]
+}

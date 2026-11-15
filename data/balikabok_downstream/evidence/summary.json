@@ -1,0 +1,362 @@
+{
+  "generated_at": "2026-11-14T22:56:56.022439+00:00",
+  "bbox": [
+    120.34,
+    14.8,
+    120.57,
+    14.97
+  ],
+  "terrain": {
+    "source_id": "NASADEM_HGT_n14e120",
+    "source_url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/NASADEM_HGT.001/NASADEM_HGT_n14e120/NASADEM_HGT_n14e120.zip",
+    "resolution_m": 30,
+    "acquisition_period": "2000-02-11 / 2000-02-21",
+    "routing_buffer_degrees": 0.025,
+    "method": "Priority-flood drainage tree with 8-neighbour routing, 1 km\u00b2 minimum contributing area. Boundary catchments may be truncated. Historical terrain, not current channel conditions or a flood/runout model.",
+    "overlay": {
+      "file": "elevation.png",
+      "bounds": [
+        [
+          14.797343146748005,
+          120.3377615856471
+        ],
+        [
+          14.972802279838682,
+          120.57216487625827
+        ]
+      ]
+    },
+    "zones": {
+      "mountain": {
+        "median_slope_degrees": 14.7
+      },
+      "downstream": {
+        "median_slope_degrees": 2.8
+      },
+      "study": {
+        "median_slope_degrees": 3.6
+      }
+    }
+  },
+  "optical": {
+    "scenes": [
+      {
+        "id": "HLS.S30.T51PTS.2026096T021601.v2.0",
+        "date": "2026-04-06T02:33:36.130Z",
+        "source_urls": [
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.B06.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.Fmask.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.SZA.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.B03.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.B02.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.B07.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.B10.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.VAA.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.VZA.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.B08.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.B01.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.B8A.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.B04.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.B11.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.B09.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.SAA.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.B12.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026096T021601.v2.0/HLS.S30.T51PTS.2026096T021601.v2.0.B05.tif"
+        ],
+        "zones": {
+          "mountain": {
+            "valid_fraction": 0.8693
+          },
+          "downstream": {
+            "valid_fraction": 0.7767
+          },
+          "study": {
+            "valid_fraction": 0.7896
+          }
+        }
+      },
+      {
+        "id": "HLS.S30.T51PTS.2026228T022131.v2.0",
+        "date": "2026-08-16T02:33:52.766Z",
+        "source_urls": [
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.VZA.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.B06.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.VAA.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.B03.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.B11.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.SAA.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.B01.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.Fmask.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.B08.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.B09.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.B04.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.B8A.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.B07.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.B12.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.B05.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.B10.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.B02.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026228T022131.v2.0/HLS.S30.T51PTS.2026228T022131.v2.0.SZA.tif"
+        ],
+        "zones": {
+          "mountain": {
+            "valid_fraction": 0.0
+          },
+          "downstream": {
+            "valid_fraction": 0.0005
+          },
+          "study": {
+            "valid_fraction": 0.0004
+          }
+        }
+      },
+      {
+        "id": "HLS.S30.T51PTS.2026256T021531.v2.0",
+        "date": "2026-09-13T02:33:35.500Z",
+        "source_urls": [
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.B12.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.B08.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.B09.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.B03.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.SZA.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.B06.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.B04.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.VZA.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.B07.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.VAA.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.SAA.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.B8A.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.B01.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.B11.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.B05.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.Fmask.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.B02.tif",
+          "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T51PTS.2026256T021531.v2.0/HLS.S30.T51PTS.2026256T021531.v2.0.B10.tif"
+        ],
+        "zones": {
+          "mountain": {
+            "valid_fraction": 0.6312
+          },
+          "downstream": {
+            "valid_fraction": 0.8525
+          },
+          "study": {
+            "valid_fraction": 0.8216
+          }
+        }
+      }
+    ],
+    "start": "2026-04-06",
+    "end": "2026-09-13",
+    "zones": {
+      "mountain": {
+        "valid_fraction": 0.5716,
+        "median_ndvi_change": 0.0716,
+        "vegetation_loss_ha": 118.8
+      },
+      "downstream": {
+        "valid_fraction": 0.6987,
+        "median_ndvi_change": 0.1495,
+        "vegetation_loss_ha": 709.74
+      },
+      "study": {
+        "valid_fraction": 0.6809,
+        "median_ndvi_change": 0.1367,
+        "vegetation_loss_ha": 828.54
+      }
+    },
+    "method": "HLS S30 v2 B04 and B8A NDVI. Exclude Fmask fill, cloud, cirrus, cloud adjacency, shadow, snow and high aerosol. Display NDVI decrease \u22650.20 on shared clear pixels. Seasonal change and other disturbances can also cause vegetation loss; not a landslide classification.",
+    "overlay": {
+      "file": "vegetation-loss.png",
+      "bounds": [
+        [
+          14.797343146748005,
+          120.3377615856471
+        ],
+        [
+          14.972802279838682,
+          120.57216487625827
+        ]
+      ]
+    }
+  },
+  "radar": {
+    "mountain": {
+      "observations": [
+        {
+          "date": "2026-08-10",
+          "median_db": -6.325,
+          "valid_pixels": 649734
+        },
+        {
+          "date": "2026-08-22",
+          "median_db": -6.313,
+          "valid_pixels": 649733
+        },
+        {
+          "date": "2026-09-03",
+          "median_db": -5.767,
+          "valid_pixels": 649734
+        },
+        {
+          "date": "2026-09-15",
+          "median_db": -6.551,
+          "valid_pixels": 649736
+        },
+        {
+          "date": "2026-09-27",
+          "median_db": -6.989,
+          "valid_pixels": 649737
+        }
+      ],
+      "changes": [
+        {
+          "start": "2026-08-10",
+          "end": "2026-08-22",
+          "highlighted_ha": 0.0,
+          "valid_ha": 6497.24,
+          "highlighted_fraction": 0.0
+        },
+        {
+          "start": "2026-08-22",
+          "end": "2026-09-03",
+          "highlighted_ha": 52.82,
+          "valid_ha": 6497.24,
+          "highlighted_fraction": 0.00813
+        },
+        {
+          "start": "2026-09-03",
+          "end": "2026-09-15",
+          "highlighted_ha": 1.61,
+          "valid_ha": 6497.26,
+          "highlighted_fraction": 0.00025
+        },
+        {
+          "start": "2026-09-15",
+          "end": "2026-09-27",
+          "highlighted_ha": 1.72,
+          "valid_ha": 6497.26,
+          "highlighted_fraction": 0.00026
+        }
+      ]
+    },
+    "downstream": {
+      "observations": [
+        {
+          "date": "2026-08-10",
+          "median_db": -7.799,
+          "valid_pixels": 4010326
+        },
+        {
+          "date": "2026-08-22",
+          "median_db": -7.703,
+          "valid_pixels": 4010325
+        },
+        {
+          "date": "2026-09-03",
+          "median_db": -7.179,
+          "valid_pixels": 4010325
+        },
+        {
+          "date": "2026-09-15",
+          "median_db": -7.471,
+          "valid_pixels": 4010322
+        },
+        {
+          "date": "2026-09-27",
+          "median_db": -8.011,
+          "valid_pixels": 4010323
+        }
+      ],
+      "changes": [
+        {
+          "start": "2026-08-10",
+          "end": "2026-08-22",
+          "highlighted_ha": 1237.58,
+          "valid_ha": 40103.21,
+          "highlighted_fraction": 0.03086
+        },
+        {
+          "start": "2026-08-22",
+          "end": "2026-09-03",
+          "highlighted_ha": 643.69,
+          "valid_ha": 40103.2,
+          "highlighted_fraction": 0.01605
+        },
+        {
+          "start": "2026-09-03",
+          "end": "2026-09-15",
+          "highlighted_ha": 1081.69,
+          "valid_ha": 40103.19,
+          "highlighted_fraction": 0.02697
+        },
+        {
+          "start": "2026-09-15",
+          "end": "2026-09-27",
+          "highlighted_ha": 119.4,
+          "valid_ha": 40103.18,
+          "highlighted_fraction": 0.00298
+        }
+      ]
+    },
+    "study": {
+      "observations": [
+        {
+          "date": "2026-08-10",
+          "median_db": -7.502,
+          "valid_pixels": 4660060
+        },
+        {
+          "date": "2026-08-22",
+          "median_db": -7.447,
+          "valid_pixels": 4660058
+        },
+        {
+          "date": "2026-09-03",
+          "median_db": -6.916,
+          "valid_pixels": 4660059
+        },
+        {
+          "date": "2026-09-15",
+          "median_db": -7.308,
+          "valid_pixels": 4660058
+        },
+        {
+          "date": "2026-09-27",
+          "median_db": -7.835,
+          "valid_pixels": 4660060
+        }
+      ],
+      "changes": [
+        {
+          "start": "2026-08-10",
+          "end": "2026-08-22",
+          "highlighted_ha": 1237.58,
+          "valid_ha": 46600.45,
+          "highlighted_fraction": 0.02656
+        },
+        {
+          "start": "2026-08-22",
+          "end": "2026-09-03",
+          "highlighted_ha": 696.51,
+          "valid_ha": 46600.44,
+          "highlighted_fraction": 0.01495
+        },
+        {
+          "start": "2026-09-03",
+          "end": "2026-09-15",
+          "highlighted_ha": 1083.3,
+          "valid_ha": 46600.45,
+          "highlighted_fraction": 0.02325
+        },
+        {
+          "start": "2026-09-15",
+          "end": "2026-09-27",
+          "highlighted_ha": 121.12,
+          "valid_ha": 46600.44,
+          "highlighted_fraction": 0.0026
+        }
+      ]
+    }
+  }
+}

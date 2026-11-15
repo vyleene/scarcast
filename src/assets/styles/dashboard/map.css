@@ -18,6 +18,9 @@
 .atlas-location-marker:hover .atlas-marker-ring, .atlas-location-marker:focus .atlas-marker-ring { box-shadow: 0 0 0 12px #dfa36e25; }
 .atlas .atlas-location-label { padding: 14px 18px; border: 1px solid #6e756d66; border-left: 2px solid var(--atlas-copper); border-radius: 0; color: var(--atlas-paper); background: #1a1e1ff2; box-shadow: 0 8px 30px #0003; }
 .atlas .atlas-location-label::before { display: none; }
+.atlas .atlas-world-location-label { width: clamp(160px, 24vw, 240px); white-space: normal; box-sizing: border-box; }
+.atlas-world-location-label strong { padding-right: 12px; }
+.atlas .atlas-world-location-label strong > span { position: absolute; top: 12px; right: 12px; margin-left: 0; }
 .atlas-location-label .atlas-eyebrow { display: block; font-size: 8px; color: var(--atlas-copper); margin-bottom: 6px; }
 .atlas-location-label strong { font-weight: 500; display: block; font-size: 14px; }
 .atlas-location-label strong > span { margin-left: 20px; color: var(--atlas-copper); }

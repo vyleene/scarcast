@@ -4,10 +4,11 @@ import { createServer } from 'vite'
 import { createElement } from 'react'
 import { renderToStaticMarkup } from 'react-dom/server'
 
-let server, model, gunw, gcov, Timeline, Info, Analysis
+let server, model, gunw, gcov, Timeline, Info, Analysis, blendModel
 before(async () => {
   server = await createServer({ cacheDir: 'node_modules/.cache/dashboard-tests', optimizeDeps: { noDiscovery: true }, server: { middlewareMode: true, hmr: false, ws: false }, appType: 'custom' })
   model = await server.ssrLoadModule('/src/components/dashboard/dashboardData.ts')
+  blendModel = await server.ssrLoadModule('/src/components/dashboard/observationBlend.ts')
   gunw = await server.ssrLoadModule('/src/services/processGUNWData.ts')
   gcov = await server.ssrLoadModule('/src/services/processGCOVData.ts')
   ;({ default: Timeline } = await server.ssrLoadModule('/src/components/dashboard/ObservationTimeline.tsx'))
@@ -15,6 +16,45 @@ before(async () => {
   ;({ default: Analysis } = await server.ssrLoadModule('/src/components/dashboard/AnalysisInfo.tsx'))
 })
 after(async () => { await server?.close() })
+
+test('offers native-pixel backscatter change with chronological intervals and clear dB units', () => {
+  const items = model.dashboardObservations(gcov.getGCOVAcquisitions('balikabok_downstream'), [], 'backscatterChange')
+  assert.equal(items.length,4)
+  assert.equal(items[1].startAt.slice(0,10),'2026-08-22')
+  assert.equal(items[1].endAt.slice(0,10),'2026-09-03')
+  assert.ok(items.every(item => item.kind === 'backscatterChange'))
+  const html = renderToStaticMarkup(createElement(Info,{observation:items[1],mode:'backscatterChange',modes:['backscatterChange','coherence'],status:null,onModeChange(){}}))
+  assert.ok(html.includes('Surface change heatmap'))
+  assert.ok(html.includes('HH / dB'))
+  assert.ok(html.includes('Both dates'))
+  assert.ok(html.includes('not displacement in metres'))
+  assert.ok(html.includes('Weak changes and small isolated patches are hidden'))
+  const metadata=items[1].acquisition.metadata.hotspots
+  assert.equal(metadata.window_m,90)
+  assert.equal(metadata.threshold_db,3)
+  assert.equal(metadata.minimum_patch_m2,10000)
+  assert.ok(items[1].acquisition.url.includes('.png'))
+})
+
+test('blends adjacent dates without changing endpoints or total display opacity', () => {
+  for (const position of [0,0.25,0.5,0.99,1,1.5,2]) {
+    const blend = blendModel.observationBlend(position,3)
+    assert.equal(blend.index,Math.floor(position))
+    assert.ok(Math.abs(blend.sourceOpacity * (1-blend.targetOpacity) + blend.targetOpacity - 0.8) < 1e-10)
+  }
+  assert.equal(blendModel.observationBlend(2,3).fraction,0)
+  assert.equal(blendModel.observationBlend(99,3).index,2)
+  assert.equal(blendModel.observationBlend(-1,3).index,0)
+})
+
+test('fractional slider positions label both observations and remain visually explicit', () => {
+  const items = model.dashboardObservations(gcov.getGCOVAcquisitions('mount_balikabok'),[],'backscatter')
+  const html = renderToStaticMarkup(createElement(Timeline,{items,heading:'Observation date',dateIndex:0.5,onDateChange(){}}))
+  assert.ok(html.includes('step="0.01"'))
+  assert.ok(html.includes('50% blend'))
+  assert.ok(html.includes('not a measurement between dates'))
+  assert.ok(html.includes(items[1].shortLabel))
+})
 
 test('keeps three GCOV dates, three GUNW pairs and two valid baseline comparisons separate', () => {
   const pairs = gunw.getGUNWAcquisitions('mount_balikabok')
